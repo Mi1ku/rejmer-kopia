@@ -1,0 +1,11 @@
+.form-switch {
+    display: inline-block;
+    margin-right: 10px;
+}
+.custom-image-style {
+    margin: 5px;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 250px;
+    width: 300px;
+}

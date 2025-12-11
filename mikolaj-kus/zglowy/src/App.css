@@ -1,0 +1,112 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+img {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+body {
+  background-color: rgb(25, 15, 29);
+}
+div {
+  color: white;
+  font-family: comic sans ms;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+button {
+  margin: 0.3em;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  border: none;
+  background-color: #2a3083aa;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+button:hover {
+  background-color: #626dffaa;
+  transform: scale(1.1);
+  transition: ease-in-out 200ms;
+}
+button:active {
+  transform: scale(0.9);
+  transition: ease-in-out 100ms;
+}
+p {
+  margin: 0.5em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em #646cffaa;
+  color: #ffffffcc;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  cursor: default;
+}
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 0.2em #646cffaa;
+  color: #ffffffcc;
+  user-select: none;
+  cursor: default;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 1em;
+  border: 2px solid #2a3083aa 0.2em;
+  background-color: #ffffff22;
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+  opacity: 0.9;
+  text-align: center;
+  user-select: none;
+  cursor: text;
+  transition: ease-in-out 200ms;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #646cffaa;
+  background-color: #ffffff44;
+  opacity: 1;
+  transition: ease-in-out 200ms;
+}
+input::placeholder {
+  color: #ffffff88;
+  font-weight: 100;
+  font-size: 1rem;
+}
+input:hover {
+  background-color: #ffffff33;
+  color: palevioletred;
+  transition: ease-in-out 200ms;
+}
+ul li {
+  color: plum;
+  text-align: center;
+  list-style-type: circle;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em #646cffaa;
+  user-select: none;
+  cursor: default;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+ul li:hover {
+  color: #a1a5ffaa;
+  transform: scale(1.05);
+  transition: ease-in-out 200ms;
+}

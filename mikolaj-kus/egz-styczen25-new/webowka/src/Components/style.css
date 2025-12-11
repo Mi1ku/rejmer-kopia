@@ -1,0 +1,5 @@
+.custom-image-style {
+    margin: 5px;
+    border-radius: 8px;
+    object-fit: cover;
+}
