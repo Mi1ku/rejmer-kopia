@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PerfectPay.PerfectPay"
+             Title="PerfectPay">
+
+    <VerticalStackLayout BackgroundColor="#202020"
+                         Padding="20"
+                         Spacing="20">
+        <Frame BackgroundColor="#404040"
+               CornerRadius="12"
+               BorderColor="#303030"
+               Padding="20"
+               HasShadow="True">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="TOTAL P/PERSON"
+                       TextColor="Aquamarine"
+                       FontSize="24"
+                       HorizontalOptions="Center"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3" />
+
+                <VerticalStackLayout Spacing="10"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                     Grid.Row="1"
+                                     Grid.Column="0">
+                    <Label x:Name="amount"
+                           Text="$0.00"
+                           TextColor="White"
+                           FontSize="48" />
+                </VerticalStackLayout>
+
+                <BoxView Grid.Row="1"
+                         Grid.Column="1"
+                         WidthRequest="1"
+                         Color="Gray"
+                         HeightRequest="120"
+                         VerticalOptions="Start"
+                         HorizontalOptions="Start" />
+
+                <VerticalStackLayout Spacing="10"
+                                     HorizontalOptions="End"
+                                     VerticalOptions="Center"
+                                     Grid.Row="1"
+                                     Grid.Column="2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="440" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="SUBTOTAL"
+                               TextColor="Gray"
+                               FontSize="18"
+                               Grid.Row="0"
+                               Grid.Column="0"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="Subtotal"
+                               Text="$0.00"
+                               TextColor="White"
+                               FontSize="18"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               HorizontalOptions="Center"/>
+
+                        <Label Text="TIP"
+                               TextColor="Gray"
+                               FontSize="18"
+                               Grid.Row="2"
+                               Grid.Column="0"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="Tip"
+                               Text="$0.00"
+                               TextColor="White"
+                               FontSize="18"
+                               Grid.Row="3"
+                               Grid.Column="0"
+                               HorizontalOptions="Center"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+
+        <HorizontalStackLayout Spacing="10"
+                               VerticalOptions="Center">
+            <Label Text="Enter your bill $"
+                   TextColor="Gray"
+                   FontSize="18"
+                   VerticalOptions="Center"/>
+            <Entry x:Name="bill"
+                   Placeholder="0.00"
+                   Keyboard="Numeric"
+                   TextColor="White"
+                   FontSize="18"
+                   WidthRequest="100"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="20">
+            <Label Text="Choose your tip"
+                   TextColor="Gray"
+                   FontSize="18"/>
+            <Button Text="10%"
+                    TextColor="White"
+                    FontSize="18"
+                    HeightRequest="50"
+                    WidthRequest="70"/>
+            <Button Text="15%"
+                    TextColor="White"
+                    FontSize="18"
+                    HeightRequest="50"
+                    WidthRequest="70"/>
+            <Button Text="20%"
+                    TextColor="White"
+                    FontSize="18"
+                    HeightRequest="50"
+                    WidthRequest="70"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10"
+                               VerticalOptions="Center">
+            <Label Text="Tip:"
+                   TextColor="Gray"
+                   FontSize="18"
+                   VerticalOptions="Center"/>
+            <Slider Minimum="0"
+                    Maximum="20"
+                    x:Name="TipSlider"
+                    WidthRequest="200"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10"
+                               VerticalOptions="Center">
+            <Label Text="Split the total"
+                   TextColor="Gray"
+                   FontSize="18"
+                   VerticalOptions="Center"/>
+            <Button x:Name="minus"
+                    Text="-"/>
+            <Entry x:Name="splitamount"
+                   Text=""
+                   Background="#404040"
+                   TextColor="White"
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"/>
+            <Button x:Name="plus"
+                    Text="+"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

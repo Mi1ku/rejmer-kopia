@@ -1,0 +1,611 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\collectionscontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:collectionscontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\inputcontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:inputcontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\activityindicator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:activityindicator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\textcontrolsdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:textcontrolsdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\textcontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:textcontrolsdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\inputcontrolsdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:inputcontrolsdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\controls.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:controls.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\domek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:domek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\commandscontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:commandscontrols.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\commandscontrols.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:commandscontrols.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\domek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:domek.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\controls.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:controls.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\absolutelayoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:absolutelayoutpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\flexlayoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:flexlayoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\nowyprojekcik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:nowyprojekcik.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\absolutelayoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:absolutelayoutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\griddemopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:griddemopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\griddemopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:griddemopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\stacklayoutpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:stacklayoutpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\verticalstacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:verticalstacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\verticalstacklayoutdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:verticalstacklayoutdemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\gridzadanie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:gridzadanie.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\gridzadanie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:gridzadanie.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\czwarta\\AppData\\Local\\Temp\\.vsdbgsrc\\17fa1d7b7ebb13e7e35e86aa62ce2ed86a8d6220\\TabbedPageDemo.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\stacklayoutpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:stacklayoutpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\flyoutpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:flyoutpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\flyoutpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:flyoutpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\tabbedpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:tabbedpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\tabbedpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:tabbedpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\horizontalstacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:horizontalstacklayoutdemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\contentpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:contentpagedemo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|c:\\users\\czwarta\\source\\repos\\nowyprojekcik\\contentpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6229F134-1E5C-4A3A-91C1-AD98AB0EE13B}|nowyprojekcik.csproj|solutionrelative:contentpagedemo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\czwarta\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionsControlsDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CollectionsControlsDemo.xaml",
+              "RelativeDocumentMoniker": "CollectionsControlsDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CollectionsControlsDemo.xaml",
+              "RelativeToolTip": "CollectionsControlsDemo.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T11:40:25.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:11:26.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputControlsDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\InputControlsDemo.xaml",
+              "RelativeDocumentMoniker": "InputControlsDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\InputControlsDemo.xaml",
+              "RelativeToolTip": "InputControlsDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T09:55:17.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityIndicator.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ActivityIndicator.xaml",
+              "RelativeDocumentMoniker": "ActivityIndicator.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ActivityIndicator.xaml",
+              "RelativeToolTip": "ActivityIndicator.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T11:36:26.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TextControlsDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TextControlsDemo.xaml.cs",
+              "RelativeDocumentMoniker": "TextControlsDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TextControlsDemo.xaml.cs",
+              "RelativeToolTip": "TextControlsDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:13:49.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextControlsDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TextControlsDemo.xaml",
+              "RelativeDocumentMoniker": "TextControlsDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TextControlsDemo.xaml",
+              "RelativeToolTip": "TextControlsDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-16T10:09:05.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InputControlsDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\InputControlsDemo.xaml.cs",
+              "RelativeDocumentMoniker": "InputControlsDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\InputControlsDemo.xaml.cs",
+              "RelativeToolTip": "InputControlsDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:58:40.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommandsControls.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CommandsControls.xaml",
+              "RelativeDocumentMoniker": "CommandsControls.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CommandsControls.xaml",
+              "RelativeToolTip": "CommandsControls.xaml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwE8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-09T10:17:46.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Domek.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Domek.xaml",
+              "RelativeDocumentMoniker": "Domek.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Domek.xaml",
+              "RelativeToolTip": "Domek.xaml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwDwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T11:16:47.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Controls.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Controls.xaml",
+              "RelativeDocumentMoniker": "Controls.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Controls.xaml",
+              "RelativeToolTip": "Controls.xaml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T11:47:02.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommandsControls.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CommandsControls.xaml.cs",
+              "RelativeDocumentMoniker": "CommandsControls.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\CommandsControls.xaml.cs",
+              "RelativeToolTip": "CommandsControls.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:19:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAApwEgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:24:31.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Controls.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Controls.xaml.cs",
+              "RelativeDocumentMoniker": "Controls.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Controls.xaml.cs",
+              "RelativeToolTip": "Controls.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:18:16.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Domek.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Domek.xaml.cs",
+              "RelativeDocumentMoniker": "Domek.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\Domek.xaml.cs",
+              "RelativeToolTip": "Domek.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:18:26.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AbsoluteLayoutPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AbsoluteLayoutPage.xaml.cs",
+              "RelativeDocumentMoniker": "AbsoluteLayoutPage.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AbsoluteLayoutPage.xaml.cs",
+              "RelativeToolTip": "AbsoluteLayoutPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T12:08:41.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FlexLayoutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlexLayoutPage.xaml",
+              "RelativeDocumentMoniker": "FlexLayoutPage.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlexLayoutPage.xaml",
+              "RelativeToolTip": "FlexLayoutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T12:10:32.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "nowyprojekcik.csproj",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\nowyprojekcik.csproj",
+              "RelativeDocumentMoniker": "nowyprojekcik.csproj",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\nowyprojekcik.csproj",
+              "RelativeToolTip": "nowyprojekcik.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T10:53:50.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GridDemoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridDemoPage.xaml.cs",
+              "RelativeDocumentMoniker": "GridDemoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridDemoPage.xaml.cs",
+              "RelativeToolTip": "GridDemoPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:04:33.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GridDemoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridDemoPage.xaml",
+              "RelativeDocumentMoniker": "GridDemoPage.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridDemoPage.xaml",
+              "RelativeToolTip": "GridDemoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T11:42:27.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AbsoluteLayoutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AbsoluteLayoutPage.xaml",
+              "RelativeDocumentMoniker": "AbsoluteLayoutPage.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AbsoluteLayoutPage.xaml",
+              "RelativeToolTip": "AbsoluteLayoutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T10:08:32.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-02T10:48:17.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GridZadanie.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridZadanie.xaml.cs",
+              "RelativeDocumentMoniker": "GridZadanie.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridZadanie.xaml.cs",
+              "RelativeToolTip": "GridZadanie.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:01:35.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GridZadanie.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridZadanie.xaml",
+              "RelativeDocumentMoniker": "GridZadanie.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\GridZadanie.xaml",
+              "RelativeToolTip": "GridZadanie.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T12:00:49.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VerticalStackLayoutDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\VerticalStackLayoutDemo.xaml.cs",
+              "RelativeDocumentMoniker": "VerticalStackLayoutDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\VerticalStackLayoutDemo.xaml.cs",
+              "RelativeToolTip": "VerticalStackLayoutDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:39:05.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StackLayoutPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\StackLayoutPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "StackLayoutPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\StackLayoutPageDemo.xaml.cs",
+              "RelativeToolTip": "StackLayoutPageDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:07:52.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VerticalStackLayoutDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\VerticalStackLayoutDemo.xaml",
+              "RelativeDocumentMoniker": "VerticalStackLayoutDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\VerticalStackLayoutDemo.xaml",
+              "RelativeToolTip": "VerticalStackLayoutDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T11:16:12.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HorizontalStackLayoutDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\HorizontalStackLayoutDemo.xaml",
+              "RelativeDocumentMoniker": "HorizontalStackLayoutDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\HorizontalStackLayoutDemo.xaml",
+              "RelativeToolTip": "HorizontalStackLayoutDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T11:15:51.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FlyOutPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlyOutPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "FlyOutPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlyOutPageDemo.xaml.cs",
+              "RelativeToolTip": "FlyOutPageDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:07:08.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TabbedPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TabbedPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "TabbedPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TabbedPageDemo.xaml.cs",
+              "RelativeToolTip": "TabbedPageDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:00:01.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StackLayoutPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\StackLayoutPageDemo.xaml",
+              "RelativeDocumentMoniker": "StackLayoutPageDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\StackLayoutPageDemo.xaml",
+              "RelativeToolTip": "StackLayoutPageDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T10:51:39.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TabbedPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TabbedPageDemo.xaml",
+              "RelativeDocumentMoniker": "TabbedPageDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\TabbedPageDemo.xaml",
+              "RelativeToolTip": "TabbedPageDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T10:50:35.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FlyOutPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlyOutPageDemo.xaml",
+              "RelativeDocumentMoniker": "FlyOutPageDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\FlyOutPageDemo.xaml",
+              "RelativeToolTip": "FlyOutPageDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T10:50:14.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "DocumentMoniker": "C:\\Users\\czwarta\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ToolTip": "C:\\Users\\czwarta\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240802000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+              "ViewState": "AgIAAOEBAAAAAAAAAAApwPgBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-25T10:55:04.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TabbedPageDemo.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\AppData\\Local\\Temp\\.vsdbgsrc\\17fa1d7b7ebb13e7e35e86aa62ce2ed86a8d6220\\TabbedPageDemo.xaml.sg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\17fa1d7b7ebb13e7e35e86aa62ce2ed86a8d6220\\TabbedPageDemo.xaml.sg.cs",
+              "ToolTip": "C:\\Users\\czwarta\\AppData\\Local\\Temp\\.vsdbgsrc\\17fa1d7b7ebb13e7e35e86aa62ce2ed86a8d6220\\TabbedPageDemo.xaml.sg.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\17fa1d7b7ebb13e7e35e86aa62ce2ed86a8d6220\\TabbedPageDemo.xaml.sg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAtwBUAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:24:19.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:11:03.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ContentPageDemo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ContentPageDemo.xaml.cs",
+              "RelativeDocumentMoniker": "ContentPageDemo.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ContentPageDemo.xaml.cs",
+              "RelativeToolTip": "ContentPageDemo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:10:28.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ContentPageDemo.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ContentPageDemo.xaml",
+              "RelativeDocumentMoniker": "ContentPageDemo.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\nowyprojekcik\\ContentPageDemo.xaml",
+              "RelativeToolTip": "ContentPageDemo.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-11T12:10:21.385Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

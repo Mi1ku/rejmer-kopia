@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nowyprojekcik.Domek"
+             Title="Domek">
+
+    <AbsoluteLayout BackgroundColor="SkyBlue">
+
+        <Polygon Points="100,10 200,150 0,150,"
+         Fill="SaddleBrown"
+         Stroke="Black"
+         StrokeThickness="2"
+         AbsoluteLayout.LayoutBounds="100,50,200,100"
+         AbsoluteLayout.LayoutFlags="All"
+                 />
+
+
+        <Rectangle Fill="BurlyWood"
+                   Stroke="Black"
+                   StrokeThickness="2"
+                   HeightRequest="150"
+                   WidthRequest="200"
+                   AbsoluteLayout.LayoutBounds="100,150,200,150"
+                   />
+
+     
+        <Rectangle Fill="Sienna"
+                   Stroke="Black"
+                   StrokeThickness="2"
+                   HeightRequest="70"
+                   WidthRequest="40"
+                   RadiusX="5"
+                   RadiusY="5"
+                   AbsoluteLayout.LayoutBounds="180,230,40,70"
+                   AbsoluteLayout.LayoutFlags="None"
+                   />
+
+        <Rectangle Fill="LightBlue"
+                   Stroke="Black"
+                   StrokeThickness="2"
+                   HeightRequest="40"
+                   WidthRequest="40"
+                   AbsoluteLayout.LayoutBounds="120,170,40,40"
+                   />
+        <Border
+                Stroke="BlanchedAlmond"
+                StrokeThickness="5"
+                Background="YellowGreen"
+                Padding="30,20"
+                HorizontalOptions="Center"
+                >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="100,0,0,100">
+                </RoundRectangle>
+            </Border.StrokeShape>
+            <Label Text="Pjona byku 👌"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="MediumPurple"
+                       />
+        </Border>
+    </AbsoluteLayout>
+</ContentPage>

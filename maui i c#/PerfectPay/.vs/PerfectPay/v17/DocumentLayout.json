@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|c:\\users\\czwarta\\source\\repos\\perfectpay\\perfectpay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|solutionrelative:perfectpay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|c:\\users\\czwarta\\source\\repos\\perfectpay\\perfectpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|solutionrelative:perfectpay.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|c:\\users\\czwarta\\source\\repos\\perfectpay\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D781AEED-4924-46E5-AE3D-7C2519DC5E7B}|PerfectPay.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerfectPay.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\PerfectPay.xaml.cs",
+              "RelativeDocumentMoniker": "PerfectPay.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\PerfectPay.xaml.cs",
+              "RelativeToolTip": "PerfectPay.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:36:17.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:53:03.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PerfectPay.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\PerfectPay.xaml",
+              "RelativeDocumentMoniker": "PerfectPay.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\source\\repos\\PerfectPay\\PerfectPay.xaml",
+              "RelativeToolTip": "PerfectPay.xaml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAuwI8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T11:52:49.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

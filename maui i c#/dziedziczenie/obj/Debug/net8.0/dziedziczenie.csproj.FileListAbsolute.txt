@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\dziedziczenie\bin\Debug\net8.0\dziedziczenie.exe
+C:\Users\czwarta\source\repos\dziedziczenie\bin\Debug\net8.0\dziedziczenie.deps.json
+C:\Users\czwarta\source\repos\dziedziczenie\bin\Debug\net8.0\dziedziczenie.runtimeconfig.json
+C:\Users\czwarta\source\repos\dziedziczenie\bin\Debug\net8.0\dziedziczenie.dll
+C:\Users\czwarta\source\repos\dziedziczenie\bin\Debug\net8.0\dziedziczenie.pdb
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.dll
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\refint\dziedziczenie.dll
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.pdb
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\dziedziczenie.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\dziedziczenie\obj\Debug\net8.0\ref\dziedziczenie.dll

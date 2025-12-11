@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nowyprojekcik.CommandsControls"
+             Title="CommandsControls">
+    <StackLayout BackgroundColor="AliceBlue">
+        <Button x:Name="btnTest" 
+                Text="Jesteś sigiemka 👊"
+                TextColor="PowderBlue"
+                TextTransform="Uppercase"
+                Clicked="btnTest_Clicked"
+                BorderColor="DeepSkyBlue"
+                WidthRequest="200"
+                HeightRequest="30"
+                HorizontalOptions="Center"
+                Background="CornflowerBlue"/>
+        <ImageButton Source="miska.png" 
+               WidthRequest="125" 
+               HeightRequest="125" 
+               HorizontalOptions="Center"
+               Margin="20"
+               x:Name="imgTest"
+               Clicked="btnTest_Clicked"
+               />
+        <RadioButton HorizontalOptions="Center"
+                     CheckedChanged="RadioButton_CheckedChanged"                   
+                     Content="Option 1" 
+                     GroupName="group1"
+        />
+        <RadioButton HorizontalOptions="Center"
+                     CheckedChanged="RadioButton_CheckedChanged"                   
+                     Content="Option 1" 
+                     GroupName="group2"
+        />
+        <RadioButton HorizontalOptions="Center"
+                     CheckedChanged="RadioButton_CheckedChanged"                   
+                     Content="Option 1" 
+                     GroupName="group1"
+        />
+        <RadioButton HorizontalOptions="Center"
+                     CheckedChanged="RadioButton_CheckedChanged"                   
+                     Content="Option 1" 
+                     GroupName="group2"
+        />
+
+        <SearchBar x:Name="searchControl"
+                   HorizontalOptions="Center"
+                   SearchButtonPressed="SearchBar_SearchButtonPressed"
+         />
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem
+                        BackgroundColor="LightGreen"
+                        IconImageSource="dotnet_bot.png"
+                        Invoked="SwipeItem_Invoked"
+                        Text="Favorite"
+                        />
+                    <SwipeItem
+                        BackgroundColor="LightPink"
+                        IconImageSource="dotnet_bot.png"
+                        Invoked="SwipeItem_Invoked"
+                        Text="Delete"
+                        />
+                </SwipeItems>
+            </SwipeView.LeftItems>
+            <Grid BackgroundColor="LightGray"
+                    HeightRequest="50"
+                    WidthRequest="100"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Center">
+                <Label Text="Swipe me left!"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         FontSize="Large"
+                />
+            </Grid>
+        </SwipeView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nowyprojekcik.StackLayoutPageDemo"
+             Title="StackLayoutPageDemo">
+    <StackLayout>
+        <Label Text="Demo"
+            BackgroundColor="red"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+         />
+        <Label Text="Demo"
+            BackgroundColor="Purple"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+         />
+        <Label Text="Demo"
+            BackgroundColor="Green"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+         />
+        <Label Text="Demo"
+            BackgroundColor="LightCoral"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+         />
+        <Label Text="Demo"
+            BackgroundColor="Cyan"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+         />
+    </StackLayout>
+</ContentPage>

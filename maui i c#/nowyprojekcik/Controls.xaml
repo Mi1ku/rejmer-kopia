@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nowyprojekcik.Controls"
+             Title="Controls">
+    <ScrollView>
+        <StackLayout>
+            <BoxView BackgroundColor="DarkGrey"
+                     HeightRequest="200"
+                 />
+            <Label Text="XAMARIN" TextColor="BlueViolet"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalTextAlignment="Center" 
+               />
+            <Ellipse Fill="Azure"
+                 Stroke="DarkBlue"
+                 StrokeThickness="10"
+                 HeightRequest="200"
+                 WidthRequest="200"
+                 HorizontalOptions="Center"
+                 />
+            <Line Stroke="DarkBlue"
+              X1="0"
+              Y1="0"
+              X2="100"
+              Y2="50"
+              HorizontalOptions="Start"
+              StrokeThickness="10"
+              />
+            <Rectangle Stroke="DarkBlue"
+                   Fill="AliceBlue"
+                   StrokeThickness="5"
+                    HeightRequest="50"
+                   HorizontalOptions="End"
+                   WidthRequest="150"
+                   RadiusX="10"
+                   RadiusY="10"
+                   />
+            <Polygon Fill="LightBlue"
+                 Points="40,10,70,80,10,50"
+                 Stroke="DarkBlue"
+                 StrokeThickness="5" />
+            <Path 
+                 Aspect="Uniform"  
+                
+                />
+            <Border
+                Stroke="#C49833"
+                StrokeThickness="5"
+                Background="#280898"
+                Padding="16,8"
+                HorizontalOptions="Center"
+                >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,0,0,40">
+                </RoundRectangle>
+            </Border.StrokeShape>
+                <Label Text="Welcome to .NET MAUI!"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       />
+            </Border>
+            <Frame Margin="5"
+                   BackgroundColor="DarkSeaGreen"
+                   >
+                <Image Source="miska.png"
+                       WidthRequest="200"
+                       HeightRequest="200"
+                       />
+            </Frame>
+            <WebView HeightRequest="500" Source="https://76mikus.space" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

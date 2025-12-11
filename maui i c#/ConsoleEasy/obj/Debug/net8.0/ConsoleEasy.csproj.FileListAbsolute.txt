@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\ConsoleEasy\bin\Debug\net8.0\ConsoleEasy.exe
+C:\Users\czwarta\source\repos\ConsoleEasy\bin\Debug\net8.0\ConsoleEasy.deps.json
+C:\Users\czwarta\source\repos\ConsoleEasy\bin\Debug\net8.0\ConsoleEasy.runtimeconfig.json
+C:\Users\czwarta\source\repos\ConsoleEasy\bin\Debug\net8.0\ConsoleEasy.dll
+C:\Users\czwarta\source\repos\ConsoleEasy\bin\Debug\net8.0\ConsoleEasy.pdb
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.dll
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\refint\ConsoleEasy.dll
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.pdb
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ConsoleEasy.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\ConsoleEasy\obj\Debug\net8.0\ref\ConsoleEasy.dll

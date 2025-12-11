@@ -1,0 +1,11 @@
+C:\Users\czwarta\source\repos\Pogoda\bin\Debug\net8.0\Pogoda.deps.json
+C:\Users\czwarta\source\repos\Pogoda\bin\Debug\net8.0\Pogoda.dll
+C:\Users\czwarta\source\repos\Pogoda\bin\Debug\net8.0\Pogoda.pdb
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.dll
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\refint\Pogoda.dll
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\Pogoda.pdb
+C:\Users\czwarta\source\repos\Pogoda\obj\Debug\net8.0\ref\Pogoda.dll

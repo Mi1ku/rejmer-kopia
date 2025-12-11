@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\powtorki\bin\Debug\net8.0\powtorki.exe
+C:\Users\czwarta\source\repos\powtorki\bin\Debug\net8.0\powtorki.deps.json
+C:\Users\czwarta\source\repos\powtorki\bin\Debug\net8.0\powtorki.runtimeconfig.json
+C:\Users\czwarta\source\repos\powtorki\bin\Debug\net8.0\powtorki.dll
+C:\Users\czwarta\source\repos\powtorki\bin\Debug\net8.0\powtorki.pdb
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.dll
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\refint\powtorki.dll
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.pdb
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\powtorki.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\powtorki\obj\Debug\net8.0\ref\powtorki.dll

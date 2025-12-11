@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\liczbypierwsze\bin\Debug\net9.0\liczbypierwsze.exe
+C:\Users\czwarta\source\repos\liczbypierwsze\bin\Debug\net9.0\liczbypierwsze.deps.json
+C:\Users\czwarta\source\repos\liczbypierwsze\bin\Debug\net9.0\liczbypierwsze.runtimeconfig.json
+C:\Users\czwarta\source\repos\liczbypierwsze\bin\Debug\net9.0\liczbypierwsze.dll
+C:\Users\czwarta\source\repos\liczbypierwsze\bin\Debug\net9.0\liczbypierwsze.pdb
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.dll
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\refint\liczbypierwsze.dll
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.pdb
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\liczbypierwsze.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\liczbypierwsze\obj\Debug\net9.0\ref\liczbypierwsze.dll

@@ -1,0 +1,157 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = nowyprojekcik
+build_property.ProjectDir = C:\Users\czwarta\source\repos\nowyprojekcik\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/AbsoluteLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.AbsoluteLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsoluteLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsoluteLayoutPage.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/ActivityIndicator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.ActivityIndicator.xaml
+build_metadata.AdditionalFiles.TargetPath = ActivityIndicator.xaml
+build_metadata.AdditionalFiles.RelativePath = ActivityIndicator.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/CollectionsControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.CollectionsControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionsControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionsControlsDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/CommandsControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.CommandsControls.xaml
+build_metadata.AdditionalFiles.TargetPath = CommandsControls.xaml
+build_metadata.AdditionalFiles.RelativePath = CommandsControls.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/ContentPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.ContentPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = ContentPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = ContentPageDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/Controls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.Controls.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/Domek.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.Domek.xaml
+build_metadata.AdditionalFiles.TargetPath = Domek.xaml
+build_metadata.AdditionalFiles.RelativePath = Domek.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/FlexLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.FlexLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexLayoutPage.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/FlyOutPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.FlyOutPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyOutPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyOutPageDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/GridDemoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.GridDemoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GridDemoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GridDemoPage.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/GridZadanie.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.GridZadanie.xaml
+build_metadata.AdditionalFiles.TargetPath = GridZadanie.xaml
+build_metadata.AdditionalFiles.RelativePath = GridZadanie.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/HorizontalStackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.HorizontalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = HorizontalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = HorizontalStackLayoutDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/InputControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.InputControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = InputControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = InputControlsDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/KartkowkaKontrolki.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.KartkowkaKontrolki.xaml
+build_metadata.AdditionalFiles.TargetPath = KartkowkaKontrolki.xaml
+build_metadata.AdditionalFiles.RelativePath = KartkowkaKontrolki.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/StackLayoutPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.StackLayoutPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = StackLayoutPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = StackLayoutPageDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/TabbedPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPageDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/TextControlsDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.TextControlsDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = TextControlsDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = TextControlsDemo.xaml
+
+[C:/Users/czwarta/source/repos/nowyprojekcik/VerticalStackLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = nowyprojekcik.VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = VerticalStackLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = VerticalStackLayoutDemo.xaml

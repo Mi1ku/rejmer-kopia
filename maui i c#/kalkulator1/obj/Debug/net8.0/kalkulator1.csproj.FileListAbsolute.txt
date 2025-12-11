@@ -1,0 +1,11 @@
+C:\Users\czwarta\source\repos\kalkulator1\bin\Debug\net8.0\kalkulator1.deps.json
+C:\Users\czwarta\source\repos\kalkulator1\bin\Debug\net8.0\kalkulator1.dll
+C:\Users\czwarta\source\repos\kalkulator1\bin\Debug\net8.0\kalkulator1.pdb
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.dll
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\refint\kalkulator1.dll
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\kalkulator1.pdb
+C:\Users\czwarta\source\repos\kalkulator1\obj\Debug\net8.0\ref\kalkulator1.dll

@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\bin\Debug\net8.0\inf04-styczen-praktyka.exe
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\bin\Debug\net8.0\inf04-styczen-praktyka.deps.json
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\bin\Debug\net8.0\inf04-styczen-praktyka.runtimeconfig.json
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\bin\Debug\net8.0\inf04-styczen-praktyka.dll
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\bin\Debug\net8.0\inf04-styczen-praktyka.pdb
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.dll
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\refint\inf04-styczen-praktyka.dll
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.pdb
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\inf04-styczen-praktyka.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\inf04-styczen-praktyka\obj\Debug\net8.0\ref\inf04-styczen-praktyka.dll
