@@ -1,0 +1,14 @@
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.AssemblyInfoInputs.cache
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.AssemblyInfo.cs
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\source\repos\kostki\bin\Debug\net8.0\kostki.exe
+C:\Users\czwarta\source\repos\kostki\bin\Debug\net8.0\kostki.deps.json
+C:\Users\czwarta\source\repos\kostki\bin\Debug\net8.0\kostki.runtimeconfig.json
+C:\Users\czwarta\source\repos\kostki\bin\Debug\net8.0\kostki.dll
+C:\Users\czwarta\source\repos\kostki\bin\Debug\net8.0\kostki.pdb
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.dll
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\refint\kostki.dll
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.pdb
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\kostki.genruntimeconfig.cache
+C:\Users\czwarta\source\repos\kostki\obj\Debug\net8.0\ref\kostki.dll
