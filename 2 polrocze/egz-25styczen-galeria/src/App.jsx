@@ -1,4 +1,4 @@
-import Galeria from "./components/Galeria"
+import Galeria from "./components/Galeria.jsx"
 
 function App() {
 
