@@ -95,7 +95,7 @@ const Galeria = () => {
                     Pobrań: {image.downloads}
                     <br />
                     <button type="button" class="btn btn-success" onClick={() => pobierz(image.id)}>Pobierz</button>
-                    <hr />
+                    <hr />  
                 </div>
             ))}
         </>
