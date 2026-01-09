@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorPicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fc21d2adb10750b2992588628c21674c57afcb2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+802d9241a4b77158ff58a40cdee1cc8f821eb7bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorPicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorPicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
