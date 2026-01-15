@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\bin\Debug\net10.0\zmienne-typy-danych.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\bin\Debug\net10.0\zmienne-typy-danych.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\bin\Debug\net10.0\zmienne-typy-danych.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\bin\Debug\net10.0\zmienne-typy-danych.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\bin\Debug\net10.0\zmienne-typy-danych.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\refint\zmienne-typy-danych.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\zmienne-typy-danych.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\zmienne-typy-danych\obj\Debug\net10.0\ref\zmienne-typy-danych.dll
