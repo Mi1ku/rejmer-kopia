@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\bin\Debug\net10.0\listy.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\bin\Debug\net10.0\listy.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\bin\Debug\net10.0\listy.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\bin\Debug\net10.0\listy.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\bin\Debug\net10.0\listy.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\refint\listy.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\listy.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\listy\obj\Debug\net10.0\ref\listy.dll

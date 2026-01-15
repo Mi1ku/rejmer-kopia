@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\bin\Debug\net10.0\ify.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\bin\Debug\net10.0\ify.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\bin\Debug\net10.0\ify.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\bin\Debug\net10.0\ify.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\bin\Debug\net10.0\ify.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\refint\ify.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ify.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\ify\obj\Debug\net10.0\ref\ify.dll
