@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
+import './style.css'
 
 function App() {
   const Rodzaje = [
@@ -19,7 +20,7 @@ function App() {
   return (
     <>
       <form>
-        <div className="form-group p-5">
+        <div className="form-group">
           <label for="tytulFilmu">Tytuł filmu</label>
           <input type="text" className="form-control" id="tytulFilmu"/>
           <label for="rodzajFilmu">Rodzaj</label>
