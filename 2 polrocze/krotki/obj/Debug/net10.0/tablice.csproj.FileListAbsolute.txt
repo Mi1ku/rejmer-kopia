@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\bin\Debug\net10.0\tablice.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\bin\Debug\net10.0\tablice.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\bin\Debug\net10.0\tablice.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\bin\Debug\net10.0\tablice.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\bin\Debug\net10.0\tablice.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\refint\tablice.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\tablice.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\krotki\obj\Debug\net10.0\ref\tablice.dll

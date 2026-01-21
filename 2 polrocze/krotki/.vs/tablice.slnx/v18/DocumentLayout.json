@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\krotki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C6FAE96-3DFD-4513-B88D-080B3E17EC6A}|krotki.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\krotki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C6FAE96-3DFD-4513-B88D-080B3E17EC6A}|krotki.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DD381B8-8183-A918-CF9D-A6FDA17475AD}|tablice.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\krotki\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD381B8-8183-A918-CF9D-A6FDA17475AD}|tablice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\krotki\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAUwGwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAUwGkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T12:18:41.118Z",
               "EditorCaption": ""
