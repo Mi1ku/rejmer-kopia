@@ -1,4 +1,4 @@
-﻿// Lista z owocami
+﻿// krotka z owocami
 List<string> items = new List<string>
 {
     "jabłko", "banan", "pomarańcza",
@@ -106,7 +106,7 @@ foreach (string owoc in items)
 }
 Console.WriteLine("---------------------------------");
 Console.WriteLine("<- Lista nowa ->");
-foreach (string nowy  in nowa)
+foreach (string nowy in nowa)
 {
     Console.WriteLine(nowy + " ");
 }
@@ -114,7 +114,7 @@ foreach (string nowy  in nowa)
 Console.WriteLine("--------------------------------");
 Console.WriteLine("losowanie_listy - Program");
 Console.WriteLine("--------------------------------");
-var random =  new Random();
+var random = new Random();
 var losowy = random.NextInt64(0, items.Count);
-var nok = (int) losowy;
+var nok = (int)losowy;
 Console.WriteLine($"{items[nok]}");
