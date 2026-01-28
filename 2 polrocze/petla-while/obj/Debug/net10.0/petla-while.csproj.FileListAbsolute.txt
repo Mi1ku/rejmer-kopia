@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\bin\Debug\net10.0\petla-while.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\bin\Debug\net10.0\petla-while.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\bin\Debug\net10.0\petla-while.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\bin\Debug\net10.0\petla-while.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\bin\Debug\net10.0\petla-while.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\refint\petla-while.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\petla-while.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\petla-while\obj\Debug\net10.0\ref\petla-while.dll

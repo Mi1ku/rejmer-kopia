@@ -123,13 +123,6 @@ foreach (var item in items)
 }
 Console.WriteLine($"Element {szukany} występuje w liście {licznik} razy.");
 
-// Liczenie_elementow - 2 wersja (LINQ)
-Console.WriteLine("\n--------------------------------");
-Console.WriteLine("liczenie_elementow 2 - Program");
-Console.WriteLine("--------------------------------");
-string elementDoLiczenia = items[0];
-int count = items.Count(y => y == elementDoLiczenia);
-Console.WriteLine($"Element {elementDoLiczenia} występuje w liście {count} razy.");
 
 // 8. Czy_jest_w_tablicy
 Console.WriteLine("\n--------------------------------");
@@ -140,7 +133,8 @@ bool czyIstnieje = items.Contains(podanyelement);
 Console.WriteLine($"Czy element {podanyelement} występuje w liście? {czyIstnieje}");
 
 // 9. Laczenie_tablic
-Console.WriteLine("\n--------------------------------");
+Console.WriteLine("\n----------" +
+    "----------------------");
 Console.WriteLine("laczenie_tablic - Program");
 Console.WriteLine("--------------------------------");
 string[] osoby = { "Dominik", "Maks", "Szymon" };
