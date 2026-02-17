@@ -7,6 +7,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const licenseInput = document.getElementById('licenseInput');
     const activateBtn = document.getElementById('activateBtn');
 
+    // UI Feedback elements
+    const updateBtn = document.getElementById('updateBtn');
+    const clearBtn = document.getElementById('clearBtn');
+
+    function showStatus(btn, message, color = "#22c55e", duration = 2000) {
+        const originalText = btn.innerText;
+        const originalBg = btn.style.backgroundColor;
+        btn.innerText = message;
+        btn.style.backgroundColor = color;
+        setTimeout(() => {
+            btn.innerText = originalText;
+            btn.style.backgroundColor = originalBg;
+        }, duration);
+    }
+
     // 1. SPRAWDZANIE LOKALNEGO KLUCZA
     chrome.storage.local.get(['shield_key'], (result) => {
         if (result.shield_key) {
@@ -19,11 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(UI_CONFIG_URL + cacheBust)
             .then(r => r.json())
             .then(data => {
-                // Sprawdzamy czy klucz istnieje w tablicy dozwolonych na GitHubie
-                // (W ui_config.json dodamy zaraz listę validKeys)
                 const isValid = data.validKeys && data.validKeys.includes(key);
 
-                if (isValid || key === "TRIAL-2026") { // TRIAL-2026 jako klucz uniwersalny do testów
+                if (isValid || key === "TRIAL-2026") {
                     if (!isAuto) {
                         chrome.storage.local.set({ shield_key: key });
                     }
@@ -32,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     document.getElementById('licType').innerText = "AKTYWNA";
                     loadCloudConfig(data);
                 } else if (!isAuto) {
-                    alert("Nieprawidłowy klucz! Napisz do @76_mikus na Instagramie.");
+                    showStatus(activateBtn, "BŁĘDNY KLUCZ!", "#ef4444");
                 }
             });
     }
@@ -53,16 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // PRZYCISKI GŁÓWNE
-    document.getElementById('clearBtn').addEventListener('click', () => {
-        chrome.browsingData.remove({ "origins": ["https://www.testportal.pl"] }, { "cache": true, "cookies": true, "localStorage": true }, () => {
-            alert("Sesja wyczyszczona!");
+    clearBtn.addEventListener('click', () => {
+        chrome.browsingData.remove({ "origins": ["https://www.testportal.pl", "https://www.testportal.net"] }, { "cache": true, "cookies": true, "localStorage": true }, () => {
+            showStatus(clearBtn, "SESJA WYCZYSZCZONA!");
         });
     });
 
-    document.getElementById('updateBtn').addEventListener('click', () => {
-        chrome.tabs.query({ url: ["https://*.testportal.pl/*"] }, (tabs) => {
+    updateBtn.addEventListener('click', () => {
+        chrome.tabs.query({ url: ["https://*.testportal.pl/*", "https://*.testportal.net/*"] }, (tabs) => {
             tabs.forEach(tab => chrome.tabs.reload(tab.id));
-            alert("Zsynchronizowano!");
+            showStatus(updateBtn, "ZSYNCHRONIZOWANO!");
         });
     });
 });

@@ -6,8 +6,12 @@
     "storage",
     "scripting",
     "browsingData",
-    "tabs"
+    "tabs",
+    "webRequest"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "host_permissions": [
     "https://*.testportal.pl/*",
     "https://*.testportal.net/*",
