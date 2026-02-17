@@ -1,29 +1,9 @@
 (function () {
     /**
-     * SHIELD ULTRA - ENTERPRISE EDITION v4.0
-     * Created by Mikuś & Antigravity AI
-     * Professional Grade Anti-Detection & Helper Tool
+     * SHIELD ULTRA ENTERPRISE v4.0.1 - FIXED CORE
+     * Ultra-Defensive Edition
      */
 
-    const CONFIG = {
-        VERSION: "4.0.0 PRO",
-        LICENCE_KEY: "TRIAL-USER-001", // Tu można dodać system weryfikacji
-        STEALTH_LEVEL: "MAXIMUM",
-        AUTO_KILL_OVERLAYS: true
-    };
-
-    // --- SECURITY & LICENCE CHECK ---
-    const activateEngine = () => {
-        const LOG_BANNER = `
-%c 🛡️ SHIELD ULTRA ${CONFIG.VERSION} %c
-Status: AKTYWNY (Licencja: ${CONFIG.LICENCE_KEY})
-Zabezpieczenia: ${CONFIG.STEALTH_LEVEL}
-        `;
-        console.log(LOG_BANNER, "color: #0ea5e9; font-weight: bold; background: #0f172a; padding: 10px; border-radius: 5px 5px 0 0;", "color: #94a3b8; background: #1e293b; padding: 10px; border-radius: 0 0 5px 5px;");
-    };
-
-    // --- PROTECTED PROTOTYPES ---
-    const _addEventListener = EventTarget.prototype.addEventListener;
     const makeNative = (fn, name) => {
         const wrapped = function () { return fn.apply(this, arguments); };
         Object.defineProperty(wrapped, 'name', { value: name || fn.name });
@@ -31,113 +11,140 @@ Zabezpieczenia: ${CONFIG.STEALTH_LEVEL}
         return wrapped;
     };
 
-    // 1. SILENT EVENT INTERCEPTOR
+    // 1. ZBIERACZ ŚMIECI I BLOKAD (Wzmocniony)
+    const nuclearClean = () => {
+        try {
+            // Jeśli Testportal wywalił nas na stronę błędu - wracamy!
+            if (window.location.href.includes('DspUnsupportedBrowserPlugins.html')) {
+                console.warn("[Shield] Wykryto stronę blokady. Próba powrotu...");
+                window.history.back();
+                // Jeśli nie wróci, spróbuj zamienić URL na poprzedni lub główny egzaminu
+                setTimeout(() => {
+                    const lastExamUrl = localStorage.getItem('shield_last_exam_url');
+                    if (lastExamUrl) window.location.href = lastExamUrl;
+                }, 500);
+                return;
+            }
+
+            // Zapamiętujemy URL egzaminu, aby móc wrócić przy blokadzie
+            if (window.location.href.includes('/exam/')) {
+                localStorage.setItem('shield_last_exam_url', window.location.href);
+            }
+
+            const keywords = ['rozszerzenia', 'wtyczki', 'zmień przeglądarkę', 'unsupported browser', 'zainstalowane wtyczki'];
+            const all = document.getElementsByTagName('*');
+
+            for (let i = 0; i < all.length; i++) {
+                const el = all[i];
+                if (!el) continue;
+
+                // PARANOICZNE POBIERANIE TEKSTU (Błąd fix)
+                let text = "";
+                try {
+                    text = (el.innerText || el.textContent || "").toLowerCase();
+                } catch (e) { text = ""; }
+
+                if (text && text.length < 1000 && keywords.some(k => text.includes(k))) {
+                    if (el.tagName !== 'BODY' && el.tagName !== 'HTML' && el.tagName !== 'SCRIPT') {
+                        el.style.setProperty('display', 'none', 'important');
+                        el.style.setProperty('visibility', 'hidden', 'important');
+                        el.style.setProperty('opacity', '0', 'important');
+                        el.style.setProperty('z-index', '-1', 'important');
+                        el.style.setProperty('pointer-events', 'none', 'important');
+                    }
+                }
+            }
+
+            // Odblokuj przewijanie (Force)
+            document.body.style.setProperty('overflow', 'auto', 'important');
+            document.documentElement.style.setProperty('overflow', 'auto', 'important');
+        } catch (err) { }
+    };
+
+    // 2. MASKOWANIE WTYCZKI (Wzmocnione)
+    try {
+        // Usuwamy ślady chronio-podobne
+        if (window.chrome && window.chrome.runtime) {
+            const _runtime = window.chrome.runtime;
+            // Zamiast kasować, nadpisujemy kluczowe funkcje
+            _runtime.sendMessage = makeNative(() => { }, 'sendMessage');
+            _runtime.connect = makeNative(() => ({ onMessage: { addListener: () => { } }, onDisconnect: { addListener: () => { } } }), 'connect');
+        }
+    } catch (e) { }
+
+    // 3. PROTOTYPE PATCHING (Eventy)
+    const _addEventListener = EventTarget.prototype.addEventListener;
     EventTarget.prototype.addEventListener = makeNative(function (type, listener, options) {
-        const dangerousEvents = ['blur', 'focus', 'visibilitychange', 'mouseleave', 'pagehide', 'beforeunload'];
-        if (dangerousEvents.includes(type)) {
+        if (['blur', 'focus', 'visibilitychange', 'mouseleave', 'pagehide'].includes(type)) {
             const wrapped = function (e) {
-                // Jeśli karta straci fokus, po prostu "gasimy" ten event, aby skrypty Testportalu go nie dostały
                 if (type === 'blur' || type === 'mouseleave') return;
                 if (type === 'visibilitychange' && document.visibilityState === 'hidden') return;
-                try {
-                    return listener.apply(this, arguments);
-                } catch (err) { /* Silent fail */ }
+                try { return listener.apply(this, arguments); } catch (err) { }
             };
             return _addEventListener.call(this, type, wrapped, options);
         }
         return _addEventListener.apply(this, arguments);
     }, 'addEventListener');
 
-    // 2. DOM STEALTH (NADPISYWANIE WŁAŚCIWOŚCI)
-    const patchDocument = () => {
-        const proto = Object.getPrototypeOf(document);
-        const force = (p, val) => {
-            try {
-                Object.defineProperty(proto, p, {
-                    get: makeNative(() => val, `get ${p}`),
-                    configurable: true,
-                    enumerable: true
-                });
-            } catch (e) { }
-        };
-        force('visibilityState', 'visible');
-        force('hidden', false);
-        document.hasFocus = makeNative(() => true, 'hasFocus');
+    // 4. FALSYFIKACJA STANU
+    const docProto = Object.getPrototypeOf(document);
+    const forceProp = (proto, prop, value) => {
+        try {
+            Object.defineProperty(proto, prop, {
+                get: makeNative(() => value, `get ${prop}`),
+                configurable: true,
+                enumerable: true
+            });
+        } catch (e) { }
     };
 
-    // 3. ULTRA BLOCKER (USUWANIE OVERLAYÓW)
-    const cleaner = () => {
-        if (!CONFIG.AUTO_KILL_OVERLAYS) return;
+    forceProp(docProto, 'visibilityState', 'visible');
+    forceProp(docProto, 'hidden', false);
+    document.hasFocus = makeNative(() => true, 'hasFocus');
 
-        const keywords = ['rozszerzenia', 'wtyczki', 'zainstalowane', 'wyłącz', 'unsupported browser'];
-        const elements = document.getElementsByTagName('*');
-
-        for (let i = 0; i < elements.length; i++) {
-            const el = elements[i];
-            try {
-                // Bezpieczne sprawdzanie tekstu (Fix błędu toLowerCase)
-                const content = (el.innerText || el.textContent || "").toLowerCase();
-                if (content.length > 0 && content.length < 800) {
-                    if (keywords.some(k => content.includes(k))) {
-                        if (el.tagName !== 'BODY' && el.tagName !== 'HTML') {
-                            el.style.setProperty('display', 'none', 'important');
-                            el.style.setProperty('opacity', '0', 'important');
-                            el.style.setProperty('z-index', '-999', 'important');
-                            document.body.style.setProperty('overflow', 'auto', 'important');
-                        }
-                    }
-                }
-            } catch (e) { }
-        }
-    };
-
-    // 4. SMART SOLVER (INTEGRACJA GOOGLE/AI)
+    // 5. HELPERY MIKUSIA (Bezpieczne wersja)
     const setupHelpers = () => {
-        const query = '.question-content, .question-essence, .answer-text, h2, p, span';
-        document.querySelectorAll(query).forEach(el => {
-            if (el.innerText && el.innerText.trim().length > 5 && !el.hasAttribute('data-shield-v4')) {
-                el.setAttribute('data-shield-v4', 'true');
-                el.addEventListener('click', (e) => {
-                    const text = el.innerText.trim().replace(/\s+/g, ' ');
-                    if (e.ctrlKey) {
-                        e.preventDefault();
-                        window.open(`https://www.google.com/search?q=${encodeURIComponent(text)}`, '_blank');
-                    } else if (e.altKey) {
-                        e.preventDefault();
-                        window.open(`https://www.perplexity.ai/search?q=${encodeURIComponent(text)}`, '_blank');
-                    }
-                });
-            }
-        });
+        try {
+            document.querySelectorAll('.question-content, .question-essence, .answer-text, h2, p, span').forEach(el => {
+                if (el && el.innerText && el.innerText.trim().length > 5 && !el.hasAttribute('data-shield-v4')) {
+                    el.setAttribute('data-shield-v4', 'true');
+                    el.style.cursor = 'help'; // Mały ślad, że działa
+                    el.addEventListener('click', (e) => {
+                        if (e.ctrlKey || e.altKey) {
+                            e.preventDefault();
+                            const text = el.innerText.trim().replace(/\s+/g, ' ');
+                            const url = e.ctrlKey
+                                ? `https://www.google.com/search?q=${encodeURIComponent(text)}`
+                                : `https://www.perplexity.ai/search?q=${encodeURIComponent(text)}`;
+                            window.open(url, '_blank');
+                        }
+                    });
+                }
+            });
+        } catch (e) { }
     };
 
-    // 5. OBSERWATOR & START
-    const init = () => {
-        activateEngine();
-        patchDocument();
+    // 6. START
+    console.clear();
+    console.log("%c 💎 SHIELD ULTRA v4.0.1 ENTERPRISE LOADED 💎 ", "color: #fbbf24; font-weight: bold; background: #000; padding: 10px; border: 2px solid #fbbf24; border-radius: 5px;");
 
-        const observer = new MutationObserver(() => {
-            cleaner();
-            setupHelpers();
-            // Blokada logów Testportal
+    const runner = () => {
+        nuclearClean();
+        setupHelpers();
+    };
+
+    setInterval(runner, 1000);
+    const obs = new MutationObserver(runner);
+    obs.observe(document.documentElement, { childList: true, subtree: true });
+
+    // Testportal Hack
+    setInterval(() => {
+        try {
             if (window.Testportal && window.Testportal.Config) {
                 window.Testportal.Config.loseFocusNotification = false;
                 window.Testportal.Config.isFocusTrackingEnabled = false;
             }
-        });
+        } catch (e) { }
+    }, 500);
 
-        observer.observe(document.documentElement, {
-            childList: true,
-            subtree: true,
-            attributes: true
-        });
-
-        setInterval(cleaner, 2000);
-        setInterval(setupHelpers, 2000);
-    };
-
-    // Ukrywamy fakt, że to wtyczka przed obiektami JS strony
-    try { delete window.chrome.runtime; } catch (e) { }
-
-    init();
 })();
