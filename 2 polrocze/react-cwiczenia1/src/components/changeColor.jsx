@@ -13,12 +13,16 @@ const ChangeColor = () => {
 }
 */
 const ChangeColor = () => {
-    const [kolor, zmienKolor] = useState("yellow");
+    const [color, setColor] = useState("red");
 
+    const changeColor = () => {
+        const colors = ["green","blue","pink","gray","cyan","magenta"];
+        setColor(colors[Math.floor(Math.random() * colors.length)]);
+    }
     return (
         <div className="changeColor">
-            <p style={{color: kolor}}> tekst </p>
-            <button>Zmień kolor</button>
+            <p style={{ color }}> tekst </p>
+            <button onClick={changeColor}>Zmień kolor</button>
         </div>
     )
 }

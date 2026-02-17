@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { width: 280px; margin: 0; font-family: sans-serif; background: #0f172a; color: white; transition: 0.5s; }
+        .card { padding: 20px; text-align: center; }
+        #updateBtn { width: 100%; padding: 12px; border: none; border-radius: 5px; background: #38bdf8; color: white; font-weight: bold; cursor: pointer; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 id="uiTitle">Ładowanie...</h1>
+        <p>Status: <span id="statusBadge">Sprawdzanie...</span></p>
+        <p>Wersja online: <span id="verText">---</span></p>
+        <button id="updateBtn">SYNCHRONIZUJ</button>
+        <footer style="margin-top: 15px; font-size: 10px; color: #64748b;">Created by Mikuś</footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
