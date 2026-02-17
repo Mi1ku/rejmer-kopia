@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html style="background: transparent;">
 
 <head>
     <meta charset="UTF-8">
     <style>
+        /* RESET & BASE */
+        html,
         body {
-            width: 340px;
-            background: #08080a;
-            color: #e2e8f0;
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            padding: 15px;
+            width: 350px;
             margin: 0;
+            padding: 0;
+            background: transparent;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: #e2e8f0;
             overflow: hidden;
         }
 
-        .panel {
+        .container {
+            background: #0f172a;
             border: 1px solid #1e293b;
             border-radius: 12px;
-            background: #0f172a;
             padding: 15px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
-            position: relative;
+            margin: 5px;
+            /* Mały margines żeby cień był widoczny */
         }
 
         .neon-text {
@@ -31,16 +34,15 @@
 
         .btn {
             width: 100%;
-            padding: 12px;
+            padding: 10px;
             border: none;
             border-radius: 8px;
             font-weight: bold;
             cursor: pointer;
-            margin-top: 12px;
+            margin-top: 10px;
             transition: all 0.2s ease;
-            font-size: 13px;
+            font-size: 12px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
         }
 
         #updateBtn {
@@ -57,19 +59,12 @@
             transform: scale(0.97);
         }
 
-        .status-header {
-            margin: 0 0 15px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         .status-row {
             display: flex;
             justify-content: space-between;
-            font-size: 13px;
+            font-size: 12px;
             margin-bottom: 8px;
-            padding-bottom: 8px;
+            padding-bottom: 5px;
             border-bottom: 1px solid #1e293b;
         }
 
@@ -80,23 +75,49 @@
             background: rgba(56, 189, 248, 0.1);
         }
 
-        .footer {
-            font-size: 10px;
-            color: #64748b;
-            text-align: center;
+        /* GUIDE SECTION */
+        .guide-box {
+            background: #1e293b;
+            border-radius: 8px;
+            padding: 10px;
             margin-top: 15px;
-            border-top: 1px solid #1e293b;
-            padding-top: 10px;
+            font-size: 11px;
+            border-left: 3px solid #38bdf8;
         }
 
-        /* LOCK SCREEN STYLES */
+        .guide-title {
+            font-weight: bold;
+            color: #38bdf8;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .guide-item {
+            margin-bottom: 4px;
+            display: flex;
+            align-items: flex-start;
+            gap: 5px;
+        }
+
+        .key {
+            background: #334155;
+            padding: 1px 4px;
+            border-radius: 3px;
+            border: 1px solid #475569;
+            font-family: monospace;
+            font-size: 10px;
+        }
+
+        /* LOCK SCREEN */
         #lockScreen {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(15, 23, 42, 0.98);
+            background: #0f172a;
             z-index: 100;
             display: flex;
             flex-direction: column;
@@ -106,21 +127,13 @@
             border-radius: 12px;
             padding: 20px;
             box-sizing: border-box;
-            backdrop-filter: blur(4px);
         }
 
         .lock-title {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 800;
             margin-bottom: 10px;
             color: #ef4444;
-        }
-
-        .lock-desc {
-            font-size: 12px;
-            color: #94a3b8;
-            margin-bottom: 20px;
-            line-height: 1.5;
         }
 
         .input-key {
@@ -131,22 +144,20 @@
             color: #fff;
             width: 80%;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             outline: none;
+        }
+
+        .buy-info {
+            font-size: 11px;
+            color: #94a3b8;
+            margin-top: 15px;
         }
 
         .buy-link {
             color: #38bdf8;
             text-decoration: none;
             font-weight: bold;
-            font-size: 11px;
-            margin-top: 15px;
-            transition: 0.3s;
-        }
-
-        .buy-link:hover {
-            text-decoration: underline;
-            color: #7dd3fc;
         }
 
         .hidden {
@@ -156,37 +167,48 @@
 </head>
 
 <body>
-    <div class="panel">
-        <!-- LOCK OVERLAY -->
+    <div class="container">
+        <!-- LOCK SCREEN -->
         <div id="lockScreen">
-            <div class="lock-title">DOSTĘP ZABLOKOWANY</div>
-            <div class="lock-desc">
-                Wymagany jest klucz licencyjny do aktywacji Shield Ultra.<br><br>
-                Kup klucz w wiadomości PV:<br>
-                <a href="https://www.instagram.com/76mikus/" target="_blank" class="buy-link"
-                    style="font-size: 13px;">Instagram: @76_mikus</a><br>
-                <a href="https://github.com/Mi1ku" target="_blank" class="buy-link">GitHub: Mi1ku</a>
+            <div class="lock-title">SHIELD ULTRA PRO</div>
+            <p style="font-size: 12px; color: #94a3b8;">Wymagana aktywacja</p>
+            <input type="text" id="licenseInput" class="input-key" placeholder="Wprowadź klucz...">
+            <button id="activateBtn" class="btn" style="background: #22c55e; color: #052e16;">AKTYWUJ LICENCJĘ</button>
+            <div class="buy-info">
+                Brak klucza? Napisz do nas:<br>
+                <a href="https://www.instagram.com/76mikus/" target="_blank" class="buy-link">Instagram: @76mikus</a>
             </div>
-            <input type="text" id="licenseInput" class="input-key" placeholder="Wpisz klucz (NP: TRIAL-2026)">
-            <button id="activateBtn" class="btn" style="background: #22c55e; color: #052e16;">Aktywuj Silnik</button>
         </div>
 
-        <!-- MAIN UI -->
+        <!-- MAIN PANEL -->
         <div id="mainUI" class="hidden">
-            <div class="status-header">
-                <h2 id="uiTitle" style="margin:0; font-size: 18px;">Shield <span class="neon-text">PRO</span></h2>
-                <span id="verText" style="font-size: 10px; opacity: 0.6;">v4.0.0</span>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h2 id="uiTitle" style="margin:0; font-size: 18px;">Shield <span class="neon-text">ULTRA</span></h2>
+                <span id="verText" style="font-size: 10px; opacity: 0.5;">v4.1.0</span>
             </div>
-            <div class="status-row"><span>Status:</span> <span id="statusBadge" class="badge"
-                    style="color: #22c55e;">OCHRONA AKTYWNA</span></div>
-            <div class="status-row"><span>Licencja:</span> <span id="licType"
-                    style="color: #38bdf8; font-weight: bold;">PREMIUM</span></div>
 
-            <button id="updateBtn" class="btn">Pobierz Update z GitHub</button>
-            <button id="clearBtn" class="btn">Wyczyść Sesję (Anti-Detect)</button>
-            <div class="footer">
-                <p>Created by Mikus | Version Professional</p>
+            <div class="status-row">
+                <span>Status Systemu:</span>
+                <span id="statusBadge" class="badge" style="color: #22c55e;">AKTYWNY</span>
             </div>
+
+            <button id="updateBtn" class="btn">SYNCHRONIZUJ Z GITHUBEM</button>
+            <button id="clearBtn" class="btn">WYCZYŚĆ DANE (BEZPIECZEŃSTWO)</button>
+
+            <!-- PORADNIK (GUIDE) -->
+            <div class="guide-box">
+                <div class="guide-title">📖 Krótki Poradnik:</div>
+                <div class="guide-item">🔹 <span class="key">CTRL</span> + <span class="key">KLIK</span> na pytanie:
+                    Szukaj w Google.</div>
+                <div class="guide-item">🔹 <span class="key">ALT</span> + <span class="key">KLIK</span> na pytanie:
+                    Odpowiedź przez AI.</div>
+                <div class="guide-item">🔹 Zmiana kart/okien jest automatycznie maskowana.</div>
+                <div class="guide-item">🔹 Używaj "Wyczyść dane" przed każdym nowym testem!</div>
+            </div>
+
+            <p style="font-size: 9px; text-align: center; color: #475569; margin-top: 15px;">
+                Created by Mikus | Enterprise Solution
+            </p>
         </div>
     </div>
     <script src="popup.js"></script>
