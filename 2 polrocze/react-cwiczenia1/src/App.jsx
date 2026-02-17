@@ -12,6 +12,7 @@ import Clicker from './components/clicker'
 import Showtext from './components/showText'
 import ChangeColor from './components/changeColor'
 import AddList from './components/addList'
+import SimpleCalculator from './components/simpleCalculator'
 function App() {
 
   return (
@@ -42,6 +43,8 @@ function App() {
       <ChangeColor />
       {/* Zad 12 */}
       <AddList />
+      {/* Zad 13 */}
+      <SimpleCalculator />
       <a href="https://docs.google.com/document/d/1aiGSX94GswdxmvXLdmuM0FV6vtwp84_izWCSy03sVaM/edit?tab=t.0">Zadania React INF04</a>
     </>
   )

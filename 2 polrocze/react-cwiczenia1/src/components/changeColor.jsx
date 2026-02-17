@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+/*
 const ChangeColor = () => {
     const [kolor, zmienKolor] = useState("black");
     const kolory = ["red", "blue", "green", "purple", "orange", "brown", "pink", "gray", "cyan", "magenta"];
@@ -7,6 +8,17 @@ const ChangeColor = () => {
         <div className="changeColor">
             <button onClick={() => zmienKolor(kolory[Math.floor(Math.random() * kolory.length)])}>Zmień kolor tekstu</button>
             <p style={{ color: kolor }}>KOCHAM UCZYĆ SIĘ NA INF04!</p>
+        </div>
+    )
+}
+*/
+const ChangeColor = () => {
+    const [kolor, zmienKolor] = useState("yellow");
+
+    return (
+        <div className="changeColor">
+            <p style={{color: kolor}}> tekst </p>
+            <button>Zmień kolor</button>
         </div>
     )
 }

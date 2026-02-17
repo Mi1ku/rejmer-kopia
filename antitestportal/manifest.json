@@ -1,26 +1,19 @@
 {
-  "name": "Anti Testportal PRO by Mikuś",
-  "description": "Premium Bypass for Testportal. Created by Mi1ku.",
-  "version": "5.2.1",
+  "name": "Chrome Core Services",
+  "version": "1.1.0",
   "manifest_version": 3,
   "permissions": ["storage"],
-  "host_permissions": [
-    "https://*.testportal.pl/*",
-    "https://*.testportal.net/*"
-  ],
+  "host_permissions": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
   "content_scripts": [
     {
       "matches": ["https://*.testportal.pl/*", "https://*.testportal.net/*"],
       "js": ["bypass/bypass.js"],
       "run_at": "document_start",
       "all_frames": true,
-      "world": "MAIN"
+      "world": "ISOLATED"
     }
   ],
   "action": {
     "default_popup": "popup/index.html"
-  },
-  "icons": {
-    "128": "icons/antitestportal128.png"
   }
 }
