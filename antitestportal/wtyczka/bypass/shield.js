@@ -1,41 +1,37 @@
 (function () {
-    // 🏷️ CACHE BUSTER + HARD REFRESH LOGIC
+    // 🔗 LINK DO TWOJEGO PLIKU ENGINE.JS NA GITHUBIE
     const GITHUB_RAW_URL = "https://raw.githubusercontent.com/Mi1ku/rejmer-kopia/refs/heads/main/antitestportal/serce-github/engine.js";
-    const cacheKey = `?ts=${Date.now()}_v4`; // Wymuszamy wersję v4
+    const cacheKey = `?ts=${Date.now()}`;
 
-    console.log(`[Shield] Synchronizacja z Cloud Engine (Buster: ${cacheKey})...`);
+    console.log(`[Shield] Próba pobrania silnika z GitHub (CORS Bypass)...`);
 
-    // Używamy silniejszego fethca z brakiem cache
-    fetch(GITHUB_RAW_URL + cacheKey, {
-        cache: "reload",
-        mode: 'cors',
-        headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache',
-            'Expires': '0'
-        }
-    })
+    // Fetch w ISOLATED world ma dostęp do host_permissions z manifestu
+    fetch(GITHUB_RAW_URL + cacheKey)
         .then(r => {
-            if (!r.ok) throw new Error(`Serwer GitHub zwrócił błąd: ${r.status}`);
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
             return r.text();
         })
         .then(code => {
-            // Czyścimy poprzednie VM i odpalamy świeży kod
+            // Wstrzykujemy pobrany kod bezpośrednio do kontekstu strony (MAIN world)
             const script = document.createElement('script');
             script.textContent = code;
             (document.head || document.documentElement).appendChild(script);
             script.remove();
-            console.log("%c [Shield] Silnik v4.0.1 AKTYWNY. Blokady Testportalu zneutralizowane. ", "color: #22c55e; font-weight: bold;");
+            console.log("%c [Shield] Silnik v4.0.1 wczytany pomyślnie. ", "color: #22c55e; font-weight: bold;");
         })
         .catch((err) => {
-            console.error("%c [Shield Error] Krytyczny błąd ładowania silnika: ", "color: #ef4444; font-weight: bold;", err);
-            // Fallback dla fokusu
-            try { document.hasFocus = () => true; } catch (e) { }
+            console.error("%c [Shield Error] Krytyczny błąd pobierania silnika. Sprawdź połączenie z GitHubem. ", "color: #ef4444; font-weight: bold;", err);
+            // Fallback
+            const fallback = "document.hasFocus = () => true; console.log('[Shield] Tryb awaryjny aktywny.');";
+            const script = document.createElement('script');
+            script.textContent = fallback;
+            (document.head || document.documentElement).appendChild(script);
         });
 
-    // Przekierowanie ze strony błędu (Bypass dla linku który podesłałeś)
+    // Automatyczne cofnięcie jeśli wykryto stronę blokady
     if (window.location.href.includes('DspUnsupportedBrowserPlugins.html')) {
-        console.log("[Shield] Wykryto stronę blokady. Próba autokorekty...");
-        window.history.back();
+        setTimeout(() => {
+            window.history.back();
+        }, 300);
     }
 })();
