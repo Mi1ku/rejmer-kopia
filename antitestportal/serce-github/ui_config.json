@@ -1,7 +1,7 @@
 {
-  "title": "Anti Testportal PRO",
+  "title": "Shield <span class='neon-text'>PRO</span>",
   "status": "OCHRONA AKTYWNA",
-  "statusColor": "#2ecc71",
-  "version": "7.0.5",
+  "statusColor": "#22c55e",
+  "version": "v9.0.0",
   "bgColor": "#0f172a"
 }
