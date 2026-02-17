@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="UTF-8">
     <style>
-        body { width: 280px; margin: 0; font-family: sans-serif; background: #0f172a; color: white; transition: 0.5s; }
-        .card { padding: 20px; text-align: center; }
-        #updateBtn { width: 100%; padding: 12px; border: none; border-radius: 5px; background: #38bdf8; color: white; font-weight: bold; cursor: pointer; margin-top: 15px; }
+        body { width: 340px; background: #08080a; color: #e2e8f0; font-family: 'Segoe UI', sans-serif; padding: 15px; margin: 0; }
+        .panel { border: 1px solid #1e293b; border-radius: 12px; background: #0f172a; padding: 15px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5); }
+        .neon-text { color: #38bdf8; text-shadow: 0 0 8px rgba(56,189,248,0.5); font-weight: 800; }
+        .btn { width: 100%; padding: 10px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; margin-top: 10px; transition: 0.2s; }
+        #updateBtn { background: #38bdf8; color: #0f172a; }
+        #clearBtn { background: #ef4444; color: #fff; }
+        .btn:active { transform: scale(0.98); }
+        .status-row { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1 id="uiTitle">Ładowanie...</h1>
-        <p>Status: <span id="statusBadge">Sprawdzanie...</span></p>
-        <p>Wersja online: <span id="verText">---</span></p>
-        <button id="updateBtn">SYNCHRONIZUJ</button>
-        <footer style="margin-top: 15px; font-size: 10px; color: #64748b;">Created by Mikuś</footer>
+    <div class="panel">
+        <h2 style="margin: 0 0 15px 0;">Shield <span class="neon-text">v9.0 PRO</span></h2>
+        <div class="status-row"><span>Status silnika:</span> <span id="engineStatus" style="color: #22c55e;">AKTYWNY</span></div>
+        <div class="status-row"><span>Ochrona sesji:</span> <span style="color: #38bdf8;">TOTALNA</span></div>
+        
+        <button id="updateBtn" class="btn">POBIERZ UPDATE Z GITHUB</button>
+        <button id="clearBtn" class="btn">WYCZYŚĆ SESJĘ (ANTI-DETECT)</button>
+        
+        <p style="font-size: 10px; color: #64748b; text-align: center; margin-top: 15px;">Created by Mikuś | GitHub: Mi1ku</p>
     </div>
     <script src="popup.js"></script>
 </body>

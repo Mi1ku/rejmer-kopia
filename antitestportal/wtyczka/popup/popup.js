@@ -11,11 +11,30 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('verText').innerText = data.version;
             document.body.style.backgroundColor = data.bgColor;
         });
-
-    document.getElementById('updateBtn').addEventListener('click', () => {
-        chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-            if (tabs[0]) chrome.tabs.reload(tabs[0].id);
-        });
-        location.reload();
+document.getElementById('clearBtn').addEventListener('click', () => {
+    const btn = document.getElementById('clearBtn');
+    // Czyścimy wszystko, co Testportal mógł zapisać o Tobie
+    chrome.browsingData.remove({
+        "origins": ["https://www.testportal.pl", "https://www.testportal.net"]
+    }, {
+        "cache": true, "cookies": true, "localStorage": true
+    }, () => {
+        btn.innerText = "SESJA WYCZYSZCZONA!";
+        btn.style.background = "#22c55e";
+        setTimeout(() => { btn.innerText = "WYCZYŚĆ SESJĘ (ANTI-DETECT)"; btn.style.background = "#ef4444"; }, 2000);
     });
+});
+
+document.getElementById('updateBtn').addEventListener('click', () => {
+    const btn = document.getElementById('updateBtn');
+    btn.innerText = "AKTUALIZOWANIE...";
+    
+    // Wymuszamy przeładowanie kart Testportalu z nowym kodem
+    chrome.tabs.query({url: ["https://*.testportal.pl/*", "https://*.testportal.net/*"]}, (tabs) => {
+        tabs.forEach(tab => chrome.tabs.reload(tab.id));
+        btn.innerText = "SILNIK ZAKTUALIZOWANY!";
+        setTimeout(() => btn.innerText = "POBIERZ UPDATE Z GITHUB", 2000);
+    });
+});        
+
 });
