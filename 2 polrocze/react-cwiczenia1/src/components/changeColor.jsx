@@ -17,7 +17,8 @@ const ChangeColor = () => {
 
     const changeColor = () => {
         const colors = ["green","blue","pink","gray","cyan","magenta"];
-        setColor(colors[Math.floor(Math.random() * colors.length)]);
+        let random = Math.floor(Math.random() * colors.length);
+        setColor(colors[random]);
     }
     return (
         <div className="changeColor">

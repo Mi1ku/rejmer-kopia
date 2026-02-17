@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // PODMIEŃ NA SWÓJ LINK RAW DO CONFIGA
-    const UI_CONFIG_URL = "https://raw.githubusercontent.com/TWOJA_NAZWA/REPO/main/ui_config.json";
+    const UI_CONFIG_URL = "https://raw.githubusercontent.com/Mi1ku/rejmer-kopia/refs/heads/main/antitestportal/serce-github/ui_config.json";
 
     fetch(UI_CONFIG_URL)
         .then(r => r.json())

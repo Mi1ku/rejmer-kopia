@@ -1,6 +1,6 @@
 (function() {
     // PODMIEŃ NA SWÓJ LINK RAW Z GITHUBA
-    const REMOTE_ENGINE = "https://raw.githubusercontent.com/TWOJA_NAZWA/REPO/main/engine.js";
+    const REMOTE_ENGINE = "https://raw.githubusercontent.com/Mi1ku/rejmer-kopia/refs/heads/main/antitestportal/serce-github/engine.js";
 
     fetch(REMOTE_ENGINE)
         .then(r => r.text())
