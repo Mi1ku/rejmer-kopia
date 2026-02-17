@@ -1,7 +1,7 @@
 (function () {
     /**
-     * SHIELD ULTRA ENTERPRISE v4.0.6 - NETWORK GHOST EDITION
-     * Ultra-Stealth Network & Focus Persistence
+     * SHIELD ULTRA ENTERPRISE v4.0.7 - DEEP STATE EDITION
+     * Unstoppable Focus Persistence
      */
 
     const makeNative = (fn, name) => {
@@ -11,111 +11,76 @@
         return wrapped;
     };
 
-    // 1. CAŁKOWITA BLOKADA RAPORTOWANIA SIECIOWEGO (Ghost Mode)
-    // Blokujemy wysyłanie logów o oszustwach na poziomie sieciowym
-    const forbiddenPatterns = ['cheat', 'focus', 'blur', 'trace', 'logger', 'detection', 'logCheat'];
+    // 1. ZABÓJCA FOCUS LOSS (NUCLEAR OPTION)
+    // Czyścimy wszystko co może wykryć wyjście z karty
+    const killFocusDetection = () => {
+        try {
+            window.onblur = null;
+            window.onfocus = null;
+            document.onvisibilitychange = null;
 
-    const isForbidden = (url) => {
-        if (typeof url !== 'string') return false;
-        return forbiddenPatterns.some(p => url.toLowerCase().includes(p));
+            // Nadpisujemy stany dokumentu na stałe (freeze)
+            if (!Object.isFrozen(document.visibilityState)) {
+                Object.defineProperty(document, 'visibilityState', { get: () => 'visible', configurable: true });
+                Object.defineProperty(document, 'hidden', { get: () => false, configurable: true });
+            }
+
+            // Hard mock dla hasFocus
+            document.hasFocus = makeNative(() => true, 'hasFocus');
+        } catch (e) { }
     };
 
-    // A) Blokada navigator.sendBeacon (Ulubione narzędzie Testportalu)
-    navigator.sendBeacon = makeNative(function (url, data) {
-        if (isForbidden(url)) {
-            console.log("%c [Shield] Zablokowano próbę raportowania cheatów (Beacon) ", "color: #fbbf24");
-            return true; // Udajemy sukces
-        }
-        return false;
-    }, 'sendBeacon');
-
-    // B) Blokada Fetch API
-    const _fetch = window.fetch;
-    window.fetch = makeNative(function (resource, init) {
-        const url = (typeof resource === 'string') ? resource : (resource ? resource.url : "");
-        if (isForbidden(url)) {
-            console.log("%c [Shield] Zablokowano próbę raportowania cheatów (Fetch) ", "color: #fbbf24");
-            return Promise.resolve(new Response(JSON.stringify({ success: true, status: "ok" })));
-        }
-        return _fetch.apply(this, arguments);
-    }, 'fetch');
-
-    // C) Blokada XMLHttpRequest
-    const _open = XMLHttpRequest.prototype.open;
-    XMLHttpRequest.prototype.open = makeNative(function (method, url) {
-        if (isForbidden(url)) {
-            this.isCheatLog = true;
-        }
-        return _open.apply(this, arguments);
-    }, 'open');
-
-    const _send = XMLHttpRequest.prototype.send;
-    XMLHttpRequest.prototype.send = makeNative(function () {
-        if (this.isCheatLog) {
-            console.log("%c [Shield] Zablokowano próbę raportowania cheatów (XHR) ", "color: #fbbf24");
-            Object.defineProperty(this, 'readyState', { value: 4 });
-            Object.defineProperty(this, 'status', { value: 200 });
-            return;
-        }
-        return _send.apply(this, arguments);
-    }, 'send');
-
-    // 2. AGRESYWNE MASKOWANIE FOKUSU
-    const blockEvents = ['blur', 'focus', 'visibilitychange', 'mouseleave', 'pagehide', 'beforeunload'];
+    // 2. PRZECHWYTYWANIE ADD_EVENT_LISTENER (SILENT MODE)
     const _addEventListener = EventTarget.prototype.addEventListener;
+    const blockedEvents = ['blur', 'focus', 'visibilitychange', 'mouseleave', 'pagehide', 'beforeunload', 'focusout'];
 
     EventTarget.prototype.addEventListener = makeNative(function (type, listener, options) {
-        if (blockEvents.includes(type)) {
-            const wrapped = function (e) {
-                if (type === 'blur' || type === 'mouseleave') return;
-                if (type === 'visibilitychange' && document.visibilityState === 'hidden') return;
-                try { return listener.apply(this, arguments); } catch (err) { }
-            };
-            return _addEventListener.call(this, type, wrapped, options);
+        if (blockedEvents.includes(type)) {
+            // Blokujemy dodawanie tych eventów przez stronę
+            return;
         }
         return _addEventListener.apply(this, arguments);
     }, 'addEventListener');
 
-    // Nadpisujemy stany dokumentu (Nuclear Option)
-    const docProto = Object.getPrototypeOf(document);
-    const forceProp = (proto, prop, value) => {
-        Object.defineProperty(proto, prop, {
-            get: makeNative(() => value, `get ${prop}`),
-            configurable: true, enumerable: true
-        });
-    };
-    forceProp(docProto, 'visibilityState', 'visible');
-    forceProp(docProto, 'hidden', false);
-    document.hasFocus = makeNative(() => true, 'hasFocus');
-    window.onblur = null;
+    // 3. BLOKADA SIECIOWA (GHOST MODE)
+    const forbidden = ['cheat', 'focus', 'blur', 'trace', 'logger'];
+    const isBad = (u) => typeof u === 'string' && forbidden.some(p => u.toLowerCase().includes(p));
 
-    // 3. AUTO-USUWANIE MODALI (Wykrywanie w locie)
-    const cleaner = () => {
+    const _sendBeacon = navigator.sendBeacon;
+    navigator.sendBeacon = makeNative(function (url, data) {
+        if (isBad(url)) return true;
+        return _sendBeacon.apply(this, arguments);
+    }, 'sendBeacon');
+
+    // 4. AUTO-USUWANIE MODALA "INFORMACJA"
+    const modalDestroyer = () => {
         try {
-            // Zabijamy Testportal.Log jeśli istnieje
-            if (window.Testportal && window.Testportal.Log) {
-                window.Testportal.Log.send = makeNative(() => true, 'send');
-                window.Testportal.Log.enqueue = makeNative(() => true, 'enqueue');
-            }
-
-            // Szukamy i usuwamy popupy o oszustwie
-            document.querySelectorAll('*').forEach(el => {
-                const text = (el.innerText || "").toLowerCase();
-                if (text.includes('opuszczeniu') || text.includes('poinformowany') || text.includes('rozumiem')) {
-                    if (el.tagName === 'BUTTON') el.click();
-                    if (el.tagName !== 'BODY') el.style.setProperty('display', 'none', 'important');
+            // Szukamy modali Testportalu
+            const buttons = document.querySelectorAll('button');
+            buttons.forEach(btn => {
+                if (btn.innerText.includes('Rozumiem')) {
+                    btn.click(); // Automatyczne potwierdzenie
                 }
             });
 
-            // Odblokuj przewijanie
+            const overlays = document.querySelectorAll('.modal-backdrop, .modal, [class*="modal"]');
+            overlays.forEach(ov => {
+                const text = (ov.innerText || "").toLowerCase();
+                if (text.includes('opuszczeniu') || text.includes('poinformowany')) {
+                    ov.style.setProperty('display', 'none', 'important');
+                    ov.remove(); // Całkowite usunięcie z DOM
+                }
+            });
+
+            // Przywracanie scrolla
             document.body.style.setProperty('overflow', 'auto', 'important');
             document.documentElement.style.setProperty('overflow', 'auto', 'important');
         } catch (e) { }
     };
 
-    // 4. SZYBKIE SKANOWANIE UI
+    // 5. HELPERY MIKUSIA (UI)
     const setupUI = () => {
-        document.querySelectorAll('.question-content, .answer-text, p, span, h2').forEach(el => {
+        document.querySelectorAll('.question-content, .answer-text, p, span, h2, h3').forEach(el => {
             if (el.innerText && el.innerText.trim().length > 5 && !el.hasAttribute('data-v4')) {
                 el.setAttribute('data-v4', 'true');
                 el.addEventListener('click', (e) => {
@@ -125,24 +90,26 @@
                 });
             }
         });
-        cleaner();
+        killFocusDetection();
+        modalDestroyer();
     };
 
+    // 6. START I LOGOWANIE
     console.clear();
-    console.log("%c 💎 SHIELD ULTRA v4.0.6 - GHOST NETWORK ENGINE 💎 ", "color: #10b981; font-weight: bold; background: #000; padding: 10px; border: 2px solid #10b981;");
+    console.log("%c � SHIELD ULTRA v4.0.7 - DEEP STATE LOADED � ", "color: #ef4444; font-weight: bold; background: #000; padding: 10px; border: 2px solid #ef4444;");
 
-    setInterval(setupUI, 1000);
+    setInterval(setupUI, 500); // Szybszy skan
     new MutationObserver(setupUI).observe(document.documentElement, { childList: true, subtree: true });
 
-    // Patch Testportal Config
+    // Wyłączenie Configu Testportalu
     setInterval(() => {
         try {
             if (window.Testportal && window.Testportal.Config) {
                 window.Testportal.Config.loseFocusNotification = false;
                 window.Testportal.Config.isFocusTrackingEnabled = false;
-                window.Testportal.Config.focusTrackingInterval = 999999;
+                if (window.Testportal.Log) window.Testportal.Log.send = () => true;
             }
         } catch (e) { }
-    }, 500);
+    }, 200);
 
 })();
