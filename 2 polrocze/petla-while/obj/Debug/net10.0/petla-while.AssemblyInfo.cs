@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("petla-while")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec8043ddab4d4e91c2d5e4dcf41d13e9748c575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0772078f9c638d7144fd24b066c5abb7d4d38da")]
 [assembly: System.Reflection.AssemblyProductAttribute("petla-while")]
 [assembly: System.Reflection.AssemblyTitleAttribute("petla-while")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
