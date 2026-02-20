@@ -4,9 +4,12 @@ const addList = () => {
     const [lista, setLista] = useState([]);
     const [nowyElement, setNowyElement] = useState("");
     const dodajElement = () => {
-        if (nowyElement.trim() !== "") {
+        if (nowyElement.trim() != "") {
             setLista([...lista, nowyElement]);
             setNowyElement("");
+        }
+        else {
+            alert("Nie można dodać pustego elementu!");
         }
     }
     return (

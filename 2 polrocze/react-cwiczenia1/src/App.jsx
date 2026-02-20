@@ -13,6 +13,7 @@ import Showtext from './components/showText'
 import ChangeColor from './components/changeColor'
 import AddList from './components/addList'
 import SimpleCalculator from './components/simpleCalculator'
+import Quiz from './components/quiz'
 function App() {
 
   return (
@@ -45,6 +46,9 @@ function App() {
       <AddList />
       {/* Zad 13 */}
       <SimpleCalculator />
+      {/* Zad 14 */}
+      <Quiz />
+      <br></br>
       <a href="https://docs.google.com/document/d/1aiGSX94GswdxmvXLdmuM0FV6vtwp84_izWCSy03sVaM/edit?tab=t.0">Zadania React INF04</a>
     </>
   )
