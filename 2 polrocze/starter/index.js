@@ -33,4 +33,6 @@ console.log('Wczytywanie 🗃️...');
 // <----------------------------------------->
 //                Server
 // <----------------------------------------->
-
+http.createServer((req, res) => {
+    res.end('Hello from the server!');
+})
