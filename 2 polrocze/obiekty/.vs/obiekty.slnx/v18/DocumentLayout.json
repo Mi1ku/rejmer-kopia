@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\obiekty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A032C98-6563-8493-9F6C-374FA4D928B9}|..\\5\\5.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5166CD-F3E6-EAA6-6EA6-0AF18E5B37C2}|..\\4\\4.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190DB4E5-6D08-DF02-6F41-6B34D32A9E52}|..\\3\\3.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3988E66-A680-1446-04F2-7228C4596C4F}|..\\1\\1.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C6B007D-4846-72C1-CEAC-130FADC03972}|..\\2\\2.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\5\\Program.cs",
+              "RelativeDocumentMoniker": "..\\5\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\5\\Program.cs",
+              "RelativeToolTip": "..\\5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:53:33.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\4\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\4\\Program.cs",
+              "RelativeToolTip": "..\\4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:49:49.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\3\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\3\\Program.cs",
+              "RelativeToolTip": "..\\3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:48:13.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\1\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\1\\Program.cs",
+              "RelativeToolTip": "..\\1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:45:05.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\2\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\2\\Program.cs",
+              "RelativeToolTip": "..\\2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T12:45:14.59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
