@@ -41,50 +41,57 @@ print(f"Silnia z 5: {silnia(5)}")
 
 # 6. czy_pierwsza
 print("\n--- 6. Czy pierwsza ---")
-def czy_pierwsza(n):
-    if n < 2:
-        return False
-    if n == 2:
-        return True
-    if n % 2 == 0:
-        return False
-    
-    pierwiastek = int(math.sqrt(n))
-    for i in range(3, pierwiastek + 1, 2):
-        if n % i == 0:
-            return False
-    return True
-
+def czy_pierwsza(liczba):
+    pierwsza = True
+    if liczba < 2:
+        pierwsza = False
+    else:
+        for i in range(2, liczba):
+            if liczba % i == 0:
+                pierwsza = False
+                break
+    return pierwsza
 print(f"Czy 7 jest pierwsza? {czy_pierwsza(7)}")
-print(f"Czy 15 jest pierwsza? {czy_pierwsza(15)}")
+print(f"Czy 10 jest pierwsza? {czy_pierwsza(10)}")
 
-# 7. odwroc_tekst
-print("\n--- 7. Odwroc tekst ---")
-def odwroc_tekst(tekst):
+# 7. odwracanie_tekstu
+tekst = input("Podaj tekst do odwrócenia: ")
+def odwracanie_tekstu(tekst):
     return tekst[::-1]
-
-print(f"Odwrotność 'python': {odwroc_tekst('python')}")
+print(f"Odwrócony tekst: {odwracanie_tekstu(tekst)}")
 
 # 8. kalkulator
-print("\n--- 8. Kalkulator ---")
-def kalkulator(a, b, op):
-    if op == "+":
+def kalkulator(a, b, operator):
+    if operator == "+":
         return a + b
-    elif op == "-":
+    elif operator == "-":
         return a - b
-    elif op == "*":
+    elif operator == "*":
         return a * b
-    elif op == "/":
-        return a / b if b != 0 else 0
-    return 0
+    elif operator == "/":
+        if b != 0:
+            return a / b
+        else:
+            return "Nie można dzielić przez zero!"
+    else:
+        return "Nieznany operator!"
+a = float(input("Podaj pierwszą liczbę: "))
+b = float(input("Podaj drugą liczbę: "))
+operator = input("Podaj operator (+, -, *, /): ")
+print(f"Wynik: {kalkulator(a, b, operator)}")
 
-print(f"Wynik 10 / 2: {kalkulator(10, 2, '/')}")
+# 8.1 kalkulator switch
+def kalkulator_switch(a, b, operator):
+    return {
+        "+": a + b,
+        "-": a - b,
+        "*": a * b,
+        "/": a / b if b != 0 else "Nie można dzielić przez zero!"
+    }.get(operator, "Nieznany operator!")
+print(f"Wynik (switch): {kalkulator_switch(a, b, operator)}")
 
-# 9. rozdziel_slowa
-print("\n--- 9. Rozdziel slowa ---")
-def rozdziel_slowa(zdanie):
-    return zdanie.split(' ')
-
-slowa = rozdziel_slowa("To jest proste")
-for slowo in slowa:
-    print(slowo)
+# 9. rozbijanie zdań na słowa
+zdanie = input("Podaj zdanie do rozbicia: ")
+def rozbijanie_zdan_na_slowa(zdanie):
+    return zdanie.split()
+print(f"Słowa: {rozbijanie_zdan_na_slowa(zdanie)}")

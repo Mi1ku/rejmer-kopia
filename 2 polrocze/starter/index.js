@@ -33,6 +33,9 @@ console.log('Wczytywanie 🗃️...');
 // <----------------------------------------->
 //                Server
 // <----------------------------------------->
-http.createServer((req, res) => {
+const server = http.createServer((_req, res) => {
     res.end('Hello from the server!');
-})
+});
+server.listen(8000, 'localhost', () => {
+    console.log('Serwer działa na porcie 8000');
+});
