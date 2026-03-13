@@ -1,9 +1,12 @@
 const fs = require('fs');
 const http = require('http');
+const url = require('url');
 
 /*
 <----------------------------------------->
+
                 Files
+
 <----------------------------------------->
 
 // Blokowanie synchronicznej drogi
@@ -12,11 +15,9 @@ console.log(textIn);
 const textOut = `Kocham Avocado i jestem z tego dumny. ${textIn} \nStworzone ${new Date().toLocaleDateString()}`;
 fs.writeFileSync('./txt/output.txt', textOut);
 console.log('Plik został zapisany');
-
 // Asynchroniczna droga
 fs.readFile('./txt/startttt.txt', 'utf-8', (err, data1) => {
     if (err) return console.log('Błąd ⛔');
-
     fs.readFile(`./txt/${data1}.txt`, 'utf-8', (err, data2) => {
         console.log(data2);
         fs.readFile('./txt/append.txt', 'utf-8', (err, data3) => {
@@ -33,9 +34,14 @@ console.log('Wczytywanie 🗃️...');
 // <----------------------------------------->
 //                Server
 // <----------------------------------------->
-const server = http.createServer((_req, res) => {
-    res.end('Hello from the server!');
-});
+const server = http.createServer((req, res) => {
+    const putName = req.url;
+    if (putName === '/overview') {
+        res.end('To jest strona przeglądu');
+    } else if (putName === '/product') {
+        res.end('To jest strona produktu');
+    }
+}); 
 server.listen(8000, 'localhost', () => {
     console.log('Serwer działa na porcie 8000');
 });
