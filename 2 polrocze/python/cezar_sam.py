@@ -25,4 +25,5 @@ def main():
     wynik = szyfr_cezara(tekst_jawny, klucz)
     print(f"Zaszyfrowany tekst: {wynik}")
 
-main()
+if __name__ == "main":
+    main()

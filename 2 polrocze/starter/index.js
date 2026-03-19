@@ -37,9 +37,24 @@ console.log('Wczytywanie 🗃️...');
 const server = http.createServer((req, res) => {
     const putName = req.url;
     if (putName === '/overview') {
-        res.end('To jest strona przeglądu');
+        res.end('To jest strona przegladu');
     } else if (putName === '/product') {
         res.end('To jest strona produktu');
+    } else if (putName === '/API') {
+        const dataIn = fs.readFileSync('./dev-data/data.json', 'utf-8');
+        res.writeHead(200, {
+            'Content-type': 'application/json',
+            'my-own-header': 'data-from-server'
+        });
+        res.end(dataIn);
+    } else {
+        res.writeHead(404, {
+            'Content-type': 'text/html',
+            'my-own-header': 'hello-world'
+        });
+        res.end(
+               '<center><h1 style="color:red;padding-top:300px;">Page not found</h1><img src="https://media.tenor.com/lGzM8JC4iZ4AAAAe/dawid-jasper-jasper.png"></img></center>'
+        );
     }
 }); 
 server.listen(8000, 'localhost', () => {
