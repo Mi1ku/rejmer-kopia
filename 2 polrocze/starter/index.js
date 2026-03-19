@@ -34,10 +34,6 @@ console.log('Wczytywanie 🗃️...');
 // <----------------------------------------->
 //                Server
 // <----------------------------------------->
-const dataIn = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8', (err, data) => {
-    const productdata = JSON.parse(data);
-    console.log(productdata);
-});
 const server = http.createServer((req, res) => {
     const putName = req.url;
     if (putName === '/' || putName === '/overview') {
@@ -45,8 +41,11 @@ const server = http.createServer((req, res) => {
     } else if (putName === '/product') {
         res.end('To jest strona produktu');
     } else if (putName === '/API') {
-        res.end('To jest strona API');
-        console.log(dataIn);
+       fs.readFile(`${__dirname}/dev-data/data.json`, 'utf-8', (err, data) => {
+            const productdata = JSON.parse(data);
+            res.writeHead(200, {'Content-type': 'application/json'});
+            res.end(data);
+        });
     } else {
         res.writeHead(404, {
             'Content-type': 'text/html',
