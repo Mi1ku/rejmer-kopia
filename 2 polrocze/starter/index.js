@@ -34,29 +34,29 @@ console.log('Wczytywanie 🗃️...');
 // <----------------------------------------->
 //                Server
 // <----------------------------------------->
+const dataIn = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8', (err, data) => {
+    const productdata = JSON.parse(data);
+    console.log(productdata);
+});
 const server = http.createServer((req, res) => {
     const putName = req.url;
-    if (putName === '/overview') {
+    if (putName === '/' || putName === '/overview') {
         res.end('To jest strona przegladu');
     } else if (putName === '/product') {
         res.end('To jest strona produktu');
     } else if (putName === '/API') {
-        const dataIn = fs.readFileSync('./dev-data/data.json', 'utf-8');
-        res.writeHead(200, {
-            'Content-type': 'application/json',
-            'my-own-header': 'data-from-server'
-        });
-        res.end(dataIn);
+        res.end('To jest strona API');
+        console.log(dataIn);
     } else {
         res.writeHead(404, {
             'Content-type': 'text/html',
             'my-own-header': 'hello-world'
         });
         res.end(
-               '<center><h1 style="color:red;padding-top:300px;">Page not found</h1><img src="https://media.tenor.com/lGzM8JC4iZ4AAAAe/dawid-jasper-jasper.png"></img></center>'
+            '<center><h1 style="color:red;padding-top:300px;">Page not found</h1><img src="https://assets.dochipo.com/editor/animations/404-error/7b0e030f-567e-4417-94bb-bc462d5f630c.gif"></img></center>'
         );
     }
-}); 
-server.listen(8000, 'localhost', () => {
+});
+server.listen(8000, '127.0.0.1', () => {
     console.log('Serwer działa na porcie 8000');
 });
