@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\bin\Debug\net10.0\szyfr_cezara.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\bin\Debug\net10.0\szyfr_cezara.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\bin\Debug\net10.0\szyfr_cezara.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\bin\Debug\net10.0\szyfr_cezara.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\bin\Debug\net10.0\szyfr_cezara.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\refint\szyfr_cezara.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\szyfr_cezara.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara\obj\Debug\net10.0\ref\szyfr_cezara.dll

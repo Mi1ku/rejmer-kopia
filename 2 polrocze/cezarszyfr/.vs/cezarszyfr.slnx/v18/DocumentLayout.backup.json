@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\cezarszyfr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B2B61F-8443-4D11-BAA2-2943D23C8ECA}|..\\szyfr_cezara\\szyfr_cezara.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara\\Program.cs",
+              "RelativeDocumentMoniker": "..\\szyfr_cezara\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara\\Program.cs",
+              "RelativeToolTip": "..\\szyfr_cezara\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:55:48.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "szyfr_cezara/1.0.0": {
+        "runtime": {
+          "szyfr_cezara.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "szyfr_cezara/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
