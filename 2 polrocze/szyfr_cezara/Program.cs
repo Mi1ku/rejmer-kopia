@@ -1,7 +1,7 @@
 ﻿using System;
 namespace szyfr_cezara
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -16,12 +16,12 @@ namespace szyfr_cezara
             string tekst_zaszyfrowany = SzyfrCezara(tekst_jawny, klucz);
             Console.WriteLine($"Oryginalny tekst: {tekst_jawny}, Klucz: {klucz}, Zaszyfrowany tekst: {tekst_zaszyfrowany}");
         }
-        static string SzyfrCezara(string tekst_jawny, int klucz)
+        public static string SzyfrCezara(string tekst_jawny, int klucz)
         {
             if (string.IsNullOrEmpty(tekst_jawny)) return string.Empty;
             string tekst_zaszyfrowany = "";
             klucz = klucz % 26;
-            foreach (char znak in tekst_jawny.ToLower())
+            foreach (char znak in tekst_jawny)
             {
                 if (znak == ' ')
                 {
