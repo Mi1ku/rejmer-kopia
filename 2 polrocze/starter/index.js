@@ -57,7 +57,8 @@ const server = http.createServer((req, res) => {
     const putName = req.url;
     if (putName === '/' || putName === '/overview') {
         res.writeHead(200, {'Content-type': 'text/html'});
-
+        const cardsHTML = dataObj.map(el => replaceTemplate(TempCard, el));
+        res.end(cardsHTML);
     } else if (putName === '/product') {
         res.end('To jest strona produktu');
     } else if (putName === '/API') {
