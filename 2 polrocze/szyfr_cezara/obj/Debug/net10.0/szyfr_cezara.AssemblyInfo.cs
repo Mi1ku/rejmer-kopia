@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("szyfr_cezara")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e308a805b742f101971bf6a15133746d154b8bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2f42914fab217d6c05b27c0e0fa23d8650de0b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("szyfr_cezara")]
 [assembly: System.Reflection.AssemblyTitleAttribute("szyfr_cezara")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

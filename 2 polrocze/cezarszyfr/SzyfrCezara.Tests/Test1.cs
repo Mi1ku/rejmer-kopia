@@ -3,7 +3,7 @@
 namespace cezar_test
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class TestySzyfruCezara
     {
         [TestMethod]
         public void DanePodstawowe()
