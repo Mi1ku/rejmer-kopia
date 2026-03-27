@@ -43,24 +43,29 @@ const replaceTemplate = (temp, product) => {
     output = output.replace(/{%QUANTITY%}/g, product.quantity);
     output = output.replace(/{%DESCRIPTION%}/g, product.description);
     output = output.replace(/{%ID%}/g, product.id);
+    if (product.organic === false) output = output.replace(/{%NOT_ORGANIC%}/g, 'not-organic');
+    return output;
 }
-if (product.organic === false) output = output.replace(/{%NOT_ORGANIC%}/g, 'not-organic');
 
-const TempOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
-const TempCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf-8');
-const TempProduct = fs.readFileSync(`${__dirname}/templates/template-product.html`, 'utf-8');
+const tempOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf-8');
+const tempCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf-8');
+const tempProduct = fs.readFileSync(`${__dirname}/templates/template-product.html`, 'utf-8');
 
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
 const dataObj = JSON.parse(data);
 
 const server = http.createServer((req, res) => {
+    console.log(req.url);
+    console.log(url.parse(req.url, true));
     const putName = req.url;
     if (putName === '/' || putName === '/overview') {
         res.writeHead(200, {'Content-type': 'text/html'});
-        const cardsHTML = dataObj.map(el => replaceTemplate(TempCard, el));
-        res.end(cardsHTML);
+        const cardsHTML = dataObj.map(el => replaceTemplate(tempCard, el)).join('');
+        const output = tempOverview.replace('{%PRODUCT_CARDS%}', cardsHTML);
+        console.log(cardsHTML);
+        res.end(output);
     } else if (putName === '/product') {
-        res.end('To jest strona produktu');
+        res.end('This is the PRODUCT');
     } else if (putName === '/API') {
             const productdata = JSON.parse(data);
             res.writeHead(200, {'Content-type': 'application/json'});
