@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../szyfr_cezara-desktop/szyfr_cezara-desktop.csproj" Id="e9015a87-7b0f-471d-8f2b-6cdd17133a6e">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="szyfr_cezara.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

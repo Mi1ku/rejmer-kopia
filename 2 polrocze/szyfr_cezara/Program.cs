@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace szyfr_cezara
 {
     public class Program
@@ -32,14 +33,14 @@ namespace szyfr_cezara
                     int przesuniety = znak + klucz;
                     if (przesuniety > 'z') przesuniety -= 26;
                     if (przesuniety < 'a') przesuniety += 26;
-                    tekst_zaszyfrowany += (char)przesuniety; 
+                    tekst_zaszyfrowany += (char)przesuniety;
                 }
                 else
                 {
-                    tekst_zaszyfrowany += znak; 
+                    tekst_zaszyfrowany += znak;
                 }
             }
-            return tekst_zaszyfrowany; 
+            return tekst_zaszyfrowany;
         }
     }
 }

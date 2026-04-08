@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="szyfr_cezara_desktop.Cezar_UI"
+             BackgroundColor="#5F9EA0"
+             Title="Szyfrowanie. Wykonane przez 07221501095 ">
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <VerticalStackLayout Grid.Column="0" 
+            >
+                <Label Text="Podaj wartość klucza" 
+                   TextColor="#FAEBD7"
+                   FontSize="20"
+                   Margin="15"
+                   VerticalOptions="Start"
+                />
+                <Entry x:Name="klucz" 
+                   Keyboard="Numeric"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HeightRequest="10"
+                   WidthRequest="100"
+                   TextColor="Black"
+                   BackgroundColor="White"
+                />
+                <Label Text="Podaj tekst" 
+                   TextColor="#FAEBD7"
+                   FontSize="20"
+                   Margin="15"
+                   VerticalOptions="Start"
+                />
+                <Editor
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="15"
+                    HeightRequest="400"
+                    WidthRequest="500"
+                    x:Name="tekst_jawny"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="1" 
+                                Spacing="20"
+                                VerticalOptions="Center"
+            >
+                <Button 
+                    BackgroundColor="#ADD8E6" 
+                    Text="Zaszyfruj" 
+                    BorderWidth="1" 
+                    BorderColor="Black" 
+                    TextColor="Black"
+                    x:Name="zaszyfruj_button"
+                    Clicked="zaszyfruj_button_Clicked"
+                    CornerRadius="0"
+                    >
+                </Button>
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="2" 
+                                Spacing="20"
+            >
+                <Label Text="Tekst zaszyfrowany" 
+                    TextColor="#FAEBD7"
+                    FontSize="20"
+                    Margin="20"
+                    Padding="20"
+                    VerticalOptions="Start"
+                />
+                <Frame 
+                    HeightRequest="500"
+                    WidthRequest="450"
+                    BorderColor="#FAEBD7"
+                    CornerRadius="20"
+                    BackgroundColor="Transparent"
+                
+                >
+                    <Label 
+                        Text=""
+                        FontSize="20"
+                        TextColor="#F0F8FF"
+                        x:Name="zaszyfrowany_tekst"
+                        VerticalOptions="Start"
+                    >
+                    </Label>
+                </Frame>
+                <Button 
+                    BackgroundColor="#ADD8E6" 
+                    Text="Zapisz szyfr w pliku" 
+                    BorderWidth="1"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    CornerRadius="0"
+                    BorderColor="Black" 
+                    TextColor="Black"
+                    x:Name="zapisz_szyfr_w_pliku"
+                    Clicked="zapisz_szyfr_w_pliku_Clicked"
+                    >
+                </Button>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
