@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\cezar-ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\cezar-ui.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\cezar-ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9015A87-7B0F-471D-8F2B-6CDD17133A6E}|..\\szyfr_cezara-desktop\\szyfr_cezara-desktop.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -31,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,42 +39,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cezar-UI.xaml.cs",
               "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\Cezar-UI.xaml.cs",
               "RelativeDocumentMoniker": "..\\szyfr_cezara-desktop\\Cezar-UI.xaml.cs",
               "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\Cezar-UI.xaml.cs",
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\Cezar-UI.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwDUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T11:36:41.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Cezar-UI.xaml",
               "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\Cezar-UI.xaml",
               "RelativeDocumentMoniker": "..\\szyfr_cezara-desktop\\Cezar-UI.xaml",
               "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\Cezar-UI.xaml",
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\Cezar-UI.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-08T10:55:42.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:55:42.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\App.xaml.cs",
               "RelativeDocumentMoniker": "..\\szyfr_cezara-desktop\\App.xaml.cs",
               "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\App.xaml.cs",
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T10:54:58.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:54:58.616Z"
             },
             {
               "$type": "Document",
@@ -86,12 +84,11 @@
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T10:54:55.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:54:55.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\szyfr_cezara-desktop\\MainPage.xaml",
               "RelativeDocumentMoniker": "..\\szyfr_cezara-desktop\\MainPage.xaml",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-08T10:54:52.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:54:52.58Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-08T10:54:51.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:54:51.11Z"
             },
             {
               "$type": "Document",
@@ -125,8 +120,7 @@
               "RelativeToolTip": "..\\szyfr_cezara-desktop\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-08T10:54:46.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T10:54:46.132Z"
             }
           ]
         }
