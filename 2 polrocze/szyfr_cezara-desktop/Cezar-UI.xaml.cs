@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Text;
 
 namespace szyfr_cezara_desktop;
 
@@ -38,21 +39,14 @@ public partial class Cezar_UI : ContentPage
 
     private void zaszyfruj_button_Clicked(object sender, EventArgs e)
     {
-        if (!int.TryParse(klucz.Text, out int k))
-        {
-            k = 0;
-        }
+        if (!int.TryParse(klucz.Text, out int k)) k = 0;
         zaszyfrowany_tekst.Text = SzyfrCezara(tekst_jawny.Text ?? "", k);
     }
 
     private async void zapisz_szyfr_w_pliku_Clicked(object sender, EventArgs e)
     {
-        string tresc = zaszyfrowany_tekst.Text;
-        if (!string.IsNullOrEmpty(tresc))
-        { 
-            string sciezka = Path.Combine(FileSystem.CacheDirectory, "szyfr.txt");
-            File.WriteAllText(sciezka, tresc);
-            await DisplayAlert("Gotowe", "Otwarto menu udostępniania/zapisu pliku.", "Ok");
-        }
+        string tresc = zaszyfrowany_tekst.Text ?? string.Empty;
+        using var strumien = new MemoryStream(Encoding.UTF8.GetBytes(tresc));
+        await CommunityToolkit.Maui.Storage.FileSaver.Default.SaveAsync("szyfr.txt", strumien, default);
     }
 }

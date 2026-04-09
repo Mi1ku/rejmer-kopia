@@ -517,3 +517,7 @@ C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\o
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Controls.Compatibility.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\szyfr_cezara-desktop\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Speech.dll
