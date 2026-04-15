@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierwsza wersja</title>
 </head>
 <body>
-    <a href="https://ome-tracker-plus.vercel.app">Pierwsza wersja</a>
+    <div id="main">
+        <a href="https://ome-tracker-plus.vercel.app" style="color: red;">Ome Tracker+</a>
+        <p style="font-size: 30px; color: blueviolet;">
+        Witaj <h1 id="powitanie"></h1>
+        </p>
+        <script>
+        let imie = prompt("Podaj swoje imię:");
+        let paragraf = document.getElementById("powitanie");
+        paragraf.innerHTML = `${imie}!`
+        </script>
+    </div>
 </body>
+<style>
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    #powitanie {
+        font-size: 2em;
+        color: purple;
+    }
+</style>
 </html>
