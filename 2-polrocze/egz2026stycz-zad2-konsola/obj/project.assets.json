@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\egz2026stycz-zad2-konsola.csproj",
+      "projectUniqueName": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\egz2026stycz-zad2-konsola.csproj",
       "projectName": "egz2026stycz-zad2-konsola",
-      "projectPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\egz2026stycz-zad2-konsola.csproj",
+      "projectPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\egz2026stycz-zad2-konsola.csproj",
       "packagesPath": "C:\\Users\\czwarta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\obj\\",
+      "outputPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

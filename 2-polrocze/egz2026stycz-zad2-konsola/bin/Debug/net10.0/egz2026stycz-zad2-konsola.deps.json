@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "egz2026stycz-zad2-konsola/1.0.0": {
+        "runtime": {
+          "egz2026stycz-zad2-konsola.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "egz2026stycz-zad2-konsola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

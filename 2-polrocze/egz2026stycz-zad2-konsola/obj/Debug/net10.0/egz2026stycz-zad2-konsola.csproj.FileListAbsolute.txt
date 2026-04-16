@@ -3,3 +3,18 @@ C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\egz2026stycz-zad2-kons
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.AssemblyInfo.cs
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.csproj.CoreCompileInputs.cache
 C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2 polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\bin\Debug\net10.0\egz2026stycz-zad2-konsola.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\bin\Debug\net10.0\egz2026stycz-zad2-konsola.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\bin\Debug\net10.0\egz2026stycz-zad2-konsola.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\bin\Debug\net10.0\egz2026stycz-zad2-konsola.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\bin\Debug\net10.0\egz2026stycz-zad2-konsola.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\refint\egz2026stycz-zad2-konsola.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\egz2026stycz-zad2-konsola.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egz2026stycz-zad2-konsola\obj\Debug\net10.0\ref\egz2026stycz-zad2-konsola.dll

@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\",
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\pytanie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|solutionrelative:pytanie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\pytaniezamkniete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{781DF2C5-3290-4EF9-8DF5-50E5947FBE1D}|egz2026stycz-zad2-konsola.csproj|solutionrelative:pytaniezamkniete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Pytanie.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\Pytanie.cs",
-              "RelativeDocumentMoniker": "Pytanie.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\Pytanie.cs",
-              "RelativeToolTip": "Pytanie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T12:03:14.392Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PytanieZamkniete.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\PytanieZamkniete.cs",
-              "RelativeDocumentMoniker": "PytanieZamkniete.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\PytanieZamkniete.cs",
-              "RelativeToolTip": "PytanieZamkniete.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T11:44:59.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2 polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAkwH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T11:34:04.464Z",
               "EditorCaption": ""

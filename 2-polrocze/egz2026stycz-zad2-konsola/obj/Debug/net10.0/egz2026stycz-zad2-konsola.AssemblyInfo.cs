@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("egz2026stycz-zad2-konsola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+175ea6a1e0d31220b9a46b0f9e48d618aae3e75e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+009a6ebb3bd19e712f846c339945eae65d1311aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("egz2026stycz-zad2-konsola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("egz2026stycz-zad2-konsola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
