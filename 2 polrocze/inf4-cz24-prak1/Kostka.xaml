@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inf4_cz24_prak1.Kostka"
+             Title="Kostka"
+             BackgroundColor="Beige"
+             >
+    <VerticalStackLayout Margin="0,10">
+        <Label 
+            Text="Gra w kości. Autor 07221501095"
+            BackgroundColor="Brown"
+            FontSize="24"
+            TextColor="White"
+            HeightRequest="50"
+            VerticalTextAlignment="Center"
+            Padding="10"
+            Margin="0,0,0,15"
+            />
+        <Button
+            BackgroundColor="Chocolate"
+            Text="RZUĆ KOŚCMI"
+            WidthRequest="150"
+            FontSize="15"
+            x:Name="rzućKoścmi"
+            Clicked="rzućKoścmi_Clicked"
+            TextColor="White"
+            VerticalOptions="Center"
+            Margin="0,0,0,15"
+            />
+        <FlexLayout 
+            BackgroundColor="White" 
+            JustifyContent="Center" 
+            HorizontalOptions="Fill"
+            Margin="0,0,0,15">
+            <Image Source="question.jpg" x:Name="k1" HeightRequest="60" Margin="9" />
+            <Image Source="question.jpg" x:Name="k2" HeightRequest="60" Margin="9" />
+            <Image Source="question.jpg" x:Name="k3" HeightRequest="60" Margin="9" />
+            <Image Source="question.jpg" x:Name="k4" HeightRequest="60" Margin="9" />
+            <Image Source="question.jpg" x:Name="k5" HeightRequest="60" Margin="9" />
+        </FlexLayout>
+        <Label Text="Wynik tego losowania: "
+               x:Name="textWynikLosowania"
+               TextColor="Black"
+               FontSize="15"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               Margin="0,0,0,15"
+               />
+        <Label Text="Wynik gry: "
+               x:Name="textWynikGry"
+               TextColor="Black"
+               FontSize="15"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               Margin="0,0,0,15"
+               />
+        <Button
+            BackgroundColor="Chocolate"
+            Text="RESETUJ WYNIK"
+            WidthRequest="150"
+            FontSize="15"
+            TextColor="White"
+            x:Name="resetWynik"
+            Clicked="resetWynik_Clicked"
+            VerticalOptions="Center"
+            />
+    </VerticalStackLayout>
+</ContentPage>
