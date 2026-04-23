@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Kostka-wspolna/Kostka-wspolna.csproj" Id="9fe1d18c-c425-4095-8ead-23b73509ed57">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="inf4-cz24-prak1.csproj" />
+</Solution>
