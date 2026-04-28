@@ -1,0 +1,16 @@
+{
+  "name": "server_file",
+  "version": "1.0.0",
+  "description": "Server z plikami",
+  "license": "ISC",
+  "author": "76mikus",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security"
+  }
+}
