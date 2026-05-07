@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kostkawspolna-maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+87ad5343a3004c03348438529ebe105c80c2c139")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a8d81e2c1efbcdbdb4a5614970b016d4d9856226")]
 [assembly: System.Reflection.AssemblyProductAttribute("kostkawspolna-maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kostkawspolna-maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\bin\Debug\net10.0\konsolowka.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\bin\Debug\net10.0\konsolowka.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\bin\Debug\net10.0\konsolowka.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\bin\Debug\net10.0\konsolowka.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\bin\Debug\net10.0\konsolowka.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\refint\konsolowka.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\konsolowka.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\konsolowka\obj\Debug\net10.0\ref\konsolowka.dll

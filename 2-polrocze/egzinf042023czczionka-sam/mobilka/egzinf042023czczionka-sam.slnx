@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../konsolowka/konsolowka.csproj" />
+  <Project Path="egzinf042023czczionka-sam.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E0CC9F6-D89A-417D-8AB5-8CB372D413D9}|..\\konsolowka\\konsolowka.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\konsolowka\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A4035-FB0A-4A75-A81F-1828D176EDC2}|egzinf042023czczionka-sam.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8A4035-FB0A-4A75-A81F-1828D176EDC2}|egzinf042023czczionka-sam.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8A4035-FB0A-4A75-A81F-1828D176EDC2}|egzinf042023czczionka-sam.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0A8A4035-FB0A-4A75-A81F-1828D176EDC2}|egzinf042023czczionka-sam.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\konsolowka\\Program.cs",
+              "RelativeDocumentMoniker": "..\\konsolowka\\Program.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\konsolowka\\Program.cs",
+              "RelativeToolTip": "..\\konsolowka\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:49:56.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:39:23.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T11:15:21.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

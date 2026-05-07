@@ -86,11 +86,13 @@
                 Text="Wynik tego losowania: "
                 TextColor="Black"
                 HorizontalOptions="Center"
+                x:Name="WynikLosowaniaLabel"
                 />
             <Label
                 Text="Wynik gry: "
                 TextColor="Black"
                 HorizontalOptions="Center"
+                x:Name="WynikGryLabel"
                 />
             <Button
                 Text="RESETUJ WYNIK"

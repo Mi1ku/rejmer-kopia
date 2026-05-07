@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\bin\Debug\net10.0\sortowanie_babelkowe.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\bin\Debug\net10.0\sortowanie_babelkowe.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\bin\Debug\net10.0\sortowanie_babelkowe.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\bin\Debug\net10.0\sortowanie_babelkowe.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\bin\Debug\net10.0\sortowanie_babelkowe.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\refint\sortowanie_babelkowe.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\sortowanie_babelkowe.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf042023zad2-czcionka\sortowanie_babelkowe\obj\Debug\net10.0\ref\sortowanie_babelkowe.dll

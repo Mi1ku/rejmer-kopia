@@ -3,6 +3,10 @@
     public partial class MainPage : ContentPage
     {
         // int count = 0;
+        // deklaruj zmienna przechowujaca wynik gry
+        public int wynikGry = 0;
+        // deklaruj zmienna przechowujaca wynik rzutu
+        public int wynikRzutu = 0;
 
         public MainPage()
         {
@@ -11,6 +15,8 @@
 
         private void rzutKoscmi_Clicked(object sender, EventArgs e)
         {
+            // zerowanie wyniku rzutu przed obliczeniami dla nowych kosci
+            wynikRzutu = 0;
             // tablica zawierajaca 5 liczb calkowitych - wynikow rzutow
             int[] dice = new int[5];
             // obiekt generatora liczb losowych
@@ -36,15 +42,23 @@
                 //zadanej ilosci oczek
                 int licznik = 0; // na poczatek 0 kosci
                 // druga petla iterujaca po tablicy z kosciami
-                for (int koscIndex = 0; koscIndex <= 5; koscIndex++)
+                for (int koscIndex = 0; koscIndex < 5; koscIndex++)
                 {
                     if (dice[koscIndex] == oczko)
                     {
                         licznik++;
                     }
                 }
-                int punktyZaLiczbe = licznik * oczko;
+                if (licznik > 1)
+                {
+                    wynikRzutu += oczko * licznik;
+                }
             }
+            wynikGry += wynikRzutu;
+            // wyswietl wynik rzutu
+            WynikLosowaniaLabel.Text = "Wynik tego losowania: " + wynikRzutu;
+            // wyswietl wynik gry
+            WynikGryLabel.Text = $"Wynik gry: {wynikGry}";
         }
 
         private void resetWynik_Clicked(object sender, EventArgs e)
@@ -54,6 +68,10 @@
             k3.Source = "question.jpg";
             k4.Source = "question.jpg";
             k5.Source = "question.jpg";
+            wynikGry = 0;
+            WynikGryLabel.Text = "Wynik gry: 0";
+            wynikRzutu = 0;
+            WynikLosowaniaLabel.Text = "Wynik tego losowania: 0";
         }
         /*
         private void OnCounterClicked(object? sender, EventArgs e)
