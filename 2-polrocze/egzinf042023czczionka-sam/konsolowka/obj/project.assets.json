@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\konsolowka\\konsolowka.csproj",
+      "projectUniqueName": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\konsolowka\\konsolowka.csproj",
       "projectName": "konsolowka",
-      "projectPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\konsolowka\\konsolowka.csproj",
+      "projectPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\konsolowka\\konsolowka.csproj",
       "packagesPath": "C:\\Users\\czwarta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\konsolowka\\obj\\",
+      "outputPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egzinf042023czczionka-sam\\konsolowka\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

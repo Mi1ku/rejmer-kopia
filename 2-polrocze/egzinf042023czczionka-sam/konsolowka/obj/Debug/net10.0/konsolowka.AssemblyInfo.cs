@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("konsolowka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8d81e2c1efbcdbdb4a5614970b016d4d9856226")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0c56566db880322ff39845b68075bcb9f90f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("konsolowka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("konsolowka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
