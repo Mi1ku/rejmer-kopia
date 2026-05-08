@@ -51,11 +51,10 @@ app.put('/users/:id', (req, res) => {
 
 // delete usera
 app.delete('/users/:id', (req, res) => {
-    const id = req.params.id;
     db.query(
         'DELETE FROM users WHERE id = ?',
-        [id],
-        (err, results) => {
+        [req.params.id],
+        (err) => {
             if (err) throw err;
             res.json({
                 message: "usunięto",
