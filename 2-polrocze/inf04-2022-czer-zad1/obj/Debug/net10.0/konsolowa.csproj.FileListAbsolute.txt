@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\bin\Debug\net10.0\konsolowa.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\bin\Debug\net10.0\konsolowa.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\bin\Debug\net10.0\konsolowa.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\bin\Debug\net10.0\konsolowa.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\bin\Debug\net10.0\konsolowa.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\refint\konsolowa.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\konsolowa.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf04-2022-czer-zad1\obj\Debug\net10.0\ref\konsolowa.dll

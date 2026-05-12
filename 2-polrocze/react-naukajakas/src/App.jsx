@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import './App.css'
-import Komponent from './components/Komponent'
+import Kursy from "./components/Kursy.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Komponent />
+      <Kursy />
       {/* <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
