@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\bin\Debug\net10.0\Tablice2D.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\bin\Debug\net10.0\Tablice2D.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\bin\Debug\net10.0\Tablice2D.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\bin\Debug\net10.0\Tablice2D.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\bin\Debug\net10.0\Tablice2D.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\refint\Tablice2D.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\Tablice2D.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\Tablice2D\obj\Debug\net10.0\ref\Tablice2D.dll
