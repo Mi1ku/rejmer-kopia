@@ -1,4 +1,7 @@
 <Solution>
   <Project Path="../egz2026stycz-zad2-maui/egz2026stycz-zad2-maui.csproj" />
+  <Project Path="../egz26styczzad2gorymaui/egz26styczzad2gorymaui.csproj" Id="7d317055-60d7-4b7d-90d6-7a0b7a4b0542">
+    <Deploy Solution="Debug|*" />
+  </Project>
   <Project Path="egz2026stycz-zad2-konsola.csproj" />
 </Solution>

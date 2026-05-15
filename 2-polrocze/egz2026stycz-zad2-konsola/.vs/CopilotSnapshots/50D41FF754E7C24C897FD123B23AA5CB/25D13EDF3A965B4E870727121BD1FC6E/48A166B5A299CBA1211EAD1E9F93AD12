@@ -1,0 +1,90 @@
+﻿namespace egz26styczzad2gorymaui
+{
+    public class Pytanie
+    {
+        public string tresc;
+        public string odpowiedzA;
+        public string odpowiedzB;
+        public string odpowiedzC;
+        public string poprawnaOdpowiedz;
+        public string obraz;
+        public Pytanie(string tresc, string odpowiedzA, string odpowiedzB, string odpowiedzC, string poprawnaOdpowiedz, string obraz)
+        {
+            this.tresc = tresc;
+            this.odpowiedzA = odpowiedzA;
+            this.odpowiedzB = odpowiedzB;
+            this.odpowiedzC = odpowiedzC;
+            this.poprawnaOdpowiedz = poprawnaOdpowiedz;
+            this.obraz = obraz;
+        }
+        public bool SprawdzOdpowiedz(string odpowiedz)
+        {
+            return odpowiedz == poprawnaOdpowiedz;
+        }
+    }
+    public partial class MainPage : ContentPage
+    {
+        private Pytanie[] pytania =
+        [
+                new Pytanie("Które to schronisko?",
+                    "Na Rysiance.", "Na Wielkiej Raczy.", "Na Wielkiej Rycerzowej.",
+                    "Na Wielkiej Raczy.","zad1.jpg"),
+                new Pytanie("Zwierze na zdjęciu to",
+                    "owczarek.", "wilk.", "kozica.",
+                    "owczarek.","zad2.jpg"),
+                new Pytanie("W oddali są widoczne",
+                    "Himalaje.", "Alpy.", "Tatry.",
+                    "Tatry.","zad3.jpg"),
+        ];
+
+        private int aktualnyIndex = 0;
+        private int punkty = 0;
+        public MainPage()
+        {
+            InitializeComponent();
+            WyswietlPytanie();
+        }
+        public void WyswietlPytanie()
+        {
+            var p = pytania[aktualnyIndex];
+            obrazPytanie.Source = p.obraz;
+            lblPytanie.Text = p.tresc;
+            odpA.Content = p.odpowiedzA;
+            odpB.Content = p.odpowiedzB;
+            odpC.Content = p.odpowiedzC;
+            odpA.IsChecked(false);
+            odpB.IsChecked(false);
+            odpC.IsChecked(false);
+        }
+
+        private void btnDalej_Clicked(object sender, EventArgs e)
+        {
+            string wybrana = "";
+            if (odpA.IsChecked) wybrana = odpA.Content.ToString();
+            else if (odpB.IsChecked) wybrana = odpB.Content.ToString();
+            else if (odpC.IsChecked) wybrana = odpC.Content.ToString();
+
+            if (wybrana != "")
+            {
+                if (pytania[aktualnyIndex].SprawdzOdpowiedz(wybrana))
+                {
+                    punkty++;
+                }
+
+                aktualnyIndex++;
+                if (aktualnyIndex < pytania.Length)
+                {
+                    WyswietlPytanie();
+                }
+                else
+                {
+                    DisplayAlertAsync("Koniec", $"Wynik: {punkty / pytania.Length}", "OK");
+                    aktualnyIndex = 0;
+                    punkty = 0;
+                    WyswietlPytanie();
+                }
+
+            }
+        }
+    }
+}

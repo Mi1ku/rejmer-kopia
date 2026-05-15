@@ -3,27 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{490CC527-8587-C4AE-3D7E-5D10618679F7}|..\\egz2026stycz-zad2-maui\\egz2026stycz-zad2-maui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D317055-60D7-4B7D-90D6-7A0B7A4B0542}|..\\egz26styczzad2gorymaui\\egz26styczzad2gorymaui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{490CC527-8587-C4AE-3D7E-5D10618679F7}|..\\egz2026stycz-zad2-maui\\egz2026stycz-zad2-maui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{490CC527-8587-C4AE-3D7E-5D10618679F7}|..\\egz2026stycz-zad2-maui\\egz2026stycz-zad2-maui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{490CC527-8587-C4AE-3D7E-5D10618679F7}|..\\egz2026stycz-zad2-maui\\egz2026stycz-zad2-maui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{490CC527-8587-C4AE-3D7E-5D10618679F7}|..\\egz2026stycz-zad2-maui\\egz2026stycz-zad2-maui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\pytania.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\dokumentacja\\test1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2BE3DC89-D87E-34D7-BE2C-2D349E91154C}|egz2026stycz-zad2-konsola.csproj|solutionrelative:dokumentacja\\test1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{7D317055-60D7-4B7D-90D6-7A0B7A4B0542}|..\\egz26styczzad2gorymaui\\egz26styczzad2gorymaui.csproj|c:\\users\\czwarta\\documents\\github\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,92 +24,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\egz2026stycz-zad2-maui\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MainPage.xaml.cs",
-              "RelativeToolTip": "..\\egz2026stycz-zad2-maui\\MainPage.xaml.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T10:16:33.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "..\\egz2026stycz-zad2-maui\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MauiProgram.cs",
-              "RelativeToolTip": "..\\egz2026stycz-zad2-maui\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T10:16:29.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MainPage.xaml",
-              "RelativeDocumentMoniker": "..\\egz2026stycz-zad2-maui\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\MainPage.xaml",
-              "RelativeToolTip": "..\\egz2026stycz-zad2-maui\\MainPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T10:16:31.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\egz26styczzad2gorymaui\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\MainPage.xaml.cs",
+              "RelativeToolTip": "..\\egz26styczzad2gorymaui\\MainPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwEIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T11:34:04.464Z",
+              "WhenOpened": "2026-05-15T11:08:55.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\AppShell.xaml",
-              "RelativeDocumentMoniker": "..\\egz2026stycz-zad2-maui\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\AppShell.xaml",
-              "RelativeToolTip": "..\\egz2026stycz-zad2-maui\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\MainPage.xaml",
+              "RelativeDocumentMoniker": "..\\egz26styczzad2gorymaui\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz26styczzad2gorymaui\\MainPage.xaml",
+              "RelativeToolTip": "..\\egz26styczzad2gorymaui\\MainPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T11:00:26.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "test1.png - PNG [1919x1079, 32-bitowy, PNG]",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\dokumentacja\\test1.png",
-              "RelativeDocumentMoniker": "dokumentacja\\test1.png",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-konsola\\dokumentacja\\test1.png - PNG [1919x1079, 32-bitowy, PNG]",
-              "RelativeToolTip": "dokumentacja\\test1.png - PNG [1919x1079, 32-bitowy, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-05-14T11:00:12.703Z",
-              "EditorCaption": " - PNG [1919x1079, 32-bitowy, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "pytania.txt",
-              "DocumentMoniker": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\pytania.txt",
-              "RelativeDocumentMoniker": "..\\egz2026stycz-zad2-maui\\pytania.txt",
-              "ToolTip": "C:\\Users\\czwarta\\Documents\\GitHub\\rejmer-kopia\\2-polrocze\\egz2026stycz-zad2-maui\\pytania.txt",
-              "RelativeToolTip": "..\\egz2026stycz-zad2-maui\\pytania.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-14T10:16:46.055Z",
+              "WhenOpened": "2026-05-15T11:08:36.963Z",
               "EditorCaption": ""
             }
           ]
