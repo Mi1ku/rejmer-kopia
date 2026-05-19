@@ -1,0 +1,5 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf4-23czerwz1ctp\obj\Debug\net10.0\inf4-23czerwz1ctp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf4-23czerwz1ctp\obj\Debug\net10.0\inf4-23czerwz1ctp.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf4-23czerwz1ctp\obj\Debug\net10.0\inf4-23czerwz1ctp.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf4-23czerwz1ctp\obj\Debug\net10.0\inf4-23czerwz1ctp.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\inf4-23czerwz1ctp\obj\Debug\net10.0\inf4-23czerwz1ctp.sourcelink.json

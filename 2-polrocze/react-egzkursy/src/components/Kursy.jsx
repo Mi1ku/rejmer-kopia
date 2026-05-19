@@ -11,8 +11,12 @@ const Kursy = () => {
         "Kurs Django"
     ]
     const wypiszKonsola = () => {
-        console.log(imieNazwisko);
-        console.log(nazwy_kursow[numerKursu]);
+        const indeks = numerKursu - 1;
+        if (indeks >= 0 && indeks < nazwy_kursow.length) {
+            console.log(`Imię i nazwisko: ${imieNazwisko}, Kurs: ${nazwy_kursow[indeks]}`);
+        } else {
+            console.log("Nieprawidłowy numer kursu");
+        }
     }
     return (
     <div className='kursy'>
@@ -39,6 +43,8 @@ const Kursy = () => {
                     type="number" 
                     className="form-control" 
                     id="InputNumerKursu" 
+                    min={1}
+                    max={nazwy_kursow.length}
                     value={numerKursu} 
                     onChange={(e) => setNumerKursu(e.target.value)}
                     />
