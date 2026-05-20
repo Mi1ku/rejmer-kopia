@@ -1,0 +1,8 @@
+#switch {
+    display: inline-table;
+}
+* {
+    background-color: white;
+    position: center;
+    margin-right: 30px;
+}
