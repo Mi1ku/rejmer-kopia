@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="odtwarzacz.MainPage"
+             Title="MojeDźwięki, Wykonał: 00000000000"
+             BackgroundColor="#2E8B57">
+
+    <Grid VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*" />
+            <ColumnDefinition Width="0.8*" />
+            <ColumnDefinition Width="0.2*" />
+        </Grid.ColumnDefinitions>
+        <ImageButton Grid.Row="0" Grid.Column="0" 
+                     Source="obraz3.png" 
+                     HeightRequest="70" 
+                     VerticalOptions="Center"
+                     HorizontalOptions="Start"
+                     x:Name="btnWczesniej"
+                     Clicked="btnWczesniej_Clicked"
+                     />
+
+        <HorizontalStackLayout Grid.Row="0" Grid.Column="1" Spacing="10" HorizontalOptions="Center">
+            <Image Source="obraz.png" HeightRequest="200" HorizontalOptions="Center" Margin="20"/>
+            <VerticalStackLayout>
+                <Label x:Name="lblArtysta" TextColor="White" FontSize="50" HorizontalOptions="Start" Text="Duzy Łukasz"/>
+                <Label x:Name="lblTytul" TextColor="White" FontSize="30" FontAttributes="Italic" HorizontalOptions="Start" Text="'''Barbara'''"/>
+                <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
+                    <Label x:Name="lblNumeryCount" TextColor="#61D918" FontSize="20" Text="18 utworów" />
+                    <Label x:Name="lblRok" TextColor="#61D918" FontSize="20" Text="2024" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+        <ImageButton Grid.Row="0" Grid.Column="2" 
+                     Source="obraz2.png" 
+                     HeightRequest="70" 
+                     VerticalOptions="Center"
+                     HorizontalOptions="End"
+                     x:Name="btnDalej"
+                     Clicked="btnDalej_Clicked"
+                     Margin="20"
+                     />
+
+        <HorizontalStackLayout Grid.Row="1" Grid.Column="1" Spacing="10" Margin="0,20,0,0">
+            <Label x:Name="lblPobrania" TextColor="#61D918" FontSize="50" HorizontalOptions="Start" Text="00000000"/>
+            <Button Text="Pobierz" 
+                    BackgroundColor="#61D918" 
+                    TextColor="Black" 
+                    FontAttributes="Bold" 
+                    FontSize="20" 
+                    WidthRequest="200"
+                    HorizontalOptions="Start"
+                    x:Name="btnPobierz"
+                    Clicked="btnPobierz_Clicked"
+                    />
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

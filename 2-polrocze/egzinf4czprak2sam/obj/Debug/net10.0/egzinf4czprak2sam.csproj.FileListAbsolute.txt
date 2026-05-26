@@ -1,0 +1,13 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\bin\Debug\net10.0\egzinf4czprak2sam.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\bin\Debug\net10.0\egzinf4czprak2sam.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\bin\Debug\net10.0\egzinf4czprak2sam.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\bin\Debug\net10.0\egzinf4czprak2sam.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\obj\Debug\net10.0\egzinf4czprak2sam.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\egzinf4czprak2sam\bin\Debug\net10.0\egzinf4czprak2sam.pdb

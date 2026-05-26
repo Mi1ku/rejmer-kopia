@@ -1,0 +1,15 @@
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\bin\Debug\net10.0\losowanie.exe
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\bin\Debug\net10.0\losowanie.deps.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\bin\Debug\net10.0\losowanie.runtimeconfig.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\bin\Debug\net10.0\losowanie.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\bin\Debug\net10.0\losowanie.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.AssemblyInfoInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.AssemblyInfo.cs
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.csproj.CoreCompileInputs.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.sourcelink.json
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\refint\losowanie.dll
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.pdb
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\losowanie.genruntimeconfig.cache
+C:\Users\czwarta\Documents\GitHub\rejmer-kopia\2-polrocze\losowanie\obj\Debug\net10.0\ref\losowanie.dll
